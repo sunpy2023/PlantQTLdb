@@ -1,4 +1,4 @@
-# PlantQTLdb
+# <img src="assets/plantqtldb-logo.png" width="40" height="40" align="middle" alt=""> PlantQTLdb
 
 PlantQTLdb is a plant multi-omics knowledgebase that integrates an LLM-powered research assistant. Researchers can use [PlantQTLdb](https://plantqtldb.cn/) to explore molecular variation across plant populations and evaluate genetic, molecular, and literature evidence for candidate genes and variants.
 
