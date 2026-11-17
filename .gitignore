@@ -6,4 +6,3 @@ __pycache__/
 .env.*
 !.env.example
 .DS_Store
-10_benchmark/recomputed/

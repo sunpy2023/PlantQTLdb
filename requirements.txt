@@ -1,6 +1,0 @@
-# Python dependencies for workflow helpers; install external tools/R packages separately.
-numpy
-pandas
-scipy
-matplotlib
-pysam

@@ -8,4 +8,4 @@
 *.txt text eol=lf
 *.png binary
 # Preserve original model-answer Markdown spacing in quoted TSV fields.
-10_benchmark/responses/*.tsv -whitespace
+10_benchmark/*responses.tsv -whitespace

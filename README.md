@@ -21,31 +21,22 @@ This repository provides the workflows used to analyze PlantQTLdb's multi-omics 
 
 Choose the directory for your analysis. Before running a shell script, replace the example paths and sample identifiers with those for your dataset and install the tools it calls. Run the scripts from the repository root so that relative paths to the shared [Python and R scripts](script/) resolve correctly.
 
-See [DEPENDENCIES.md](DEPENDENCIES.md) for the external programs, R packages, Python dependencies and input preparation. The numbered workflows are Linux/HPC templates that require the corresponding datasets and reference files.
-
 ## Literature relationship extraction
 
-The [literature extraction prompt](09_literature_extraction/literature_relation_extraction_prompt.md) defines species-aware, gene-centered relationship extraction using DeepSeek V4 Pro. The earlier [prompts/ path](prompts/literature_relation_extraction_prompt.md) is retained for compatibility with existing links.
+The [literature extraction prompt](09_literature_extraction/literature_relation_extraction_prompt.md) defines species-aware, gene-centered relationship extraction using DeepSeek V4 Pro.
 
 ## Benchmark materials
 
-The [benchmark evaluation prompt](10_benchmark/benchmark_evaluation_prompt.md) contains the complete scoring and evidence-verification instructions used in the evaluation. Literature relationship extraction uses the separate [literature extraction prompt](09_literature_extraction/literature_relation_extraction_prompt.md).
-
-The benchmark comprises 300 questions across two species and six task categories, evaluated under nine system configurations. Manuscript Table S5 provides the scoring rubric, and Table S6 contains all 2,700 primary evaluations, including questions, five dimension scores, total scores, and scoring rationales.
+The [benchmark directory](10_benchmark/) contains the final question set, complete responses, scores, scoring rubric and [evaluation prompt](10_benchmark/benchmark_evaluation_prompt.md). It covers 300 questions across two species groups and six task categories, evaluated under nine system configurations, including the updated MiniMax M3 results.
 
 | File | Contents |
 | --- | --- |
-| [Primary responses](10_benchmark/responses/primary_responses.tsv) | 2,700 complete responses for generation round 1 |
-| [Repeated generation responses](10_benchmark/responses/repeated_generation_responses.tsv) | 540 complete responses from generation rounds 2 and 3 for the fixed 30-question subset |
-| [Repeated scoring](10_benchmark/scores/repeated_scoring.tsv) | 810 evaluations: three scoring rounds of the same 270 primary responses |
-| [Repeated generation scores](10_benchmark/scores/repeated_generation_scores.tsv) | 810 evaluations: one evaluation of each response from three generation rounds for the fixed 30-question subset |
+| [Questions](10_benchmark/questions.tsv) | 300 questions and membership of the fixed 30-question repeat subset |
+| [Scoring rubric](10_benchmark/scoring_rubric.tsv) | Five evaluation dimensions and their scoring criteria (manuscript Table S5) |
+| [Primary responses](10_benchmark/primary_responses.tsv) | 2,700 complete responses for generation round 1 |
+| [Primary scores](10_benchmark/primary_scores.tsv) | 2,700 primary evaluations, including five dimension scores, totals and rationales (manuscript Table S6) |
+| [Repeated generation responses](10_benchmark/repeated_generation_responses.tsv) | 540 additional responses from generation rounds 2 and 3 |
+| [Repeated scoring](10_benchmark/repeated_scoring.tsv) | 810 evaluations from three scoring rounds of the same 270 primary responses |
+| [Repeated generation scores](10_benchmark/repeated_generation_scores.tsv) | 810 evaluations of responses from three generation rounds on the fixed subset |
 
-The repeatability subset contains 15 questions per species and five per task category. Round 1 in both score files reuses the corresponding primary evaluations; it is not an additional scoring run. The two score files therefore share 270 round-1 evaluations and should not be pooled as independent observations. Response IDs link each evaluation to its complete answer; generation and scoring rounds are recorded separately. GPT-5.6 Sol was used as the judge. The original answer text and scoring rationales are preserved.
-
-The [benchmark guide](10_benchmark/README.md) provides the [300-question set](10_benchmark/questions.tsv), [complete primary scores](10_benchmark/scores/primary_scores.tsv), [machine-readable rubric](10_benchmark/scoring_rubric.tsv), [statistical summaries](10_benchmark/statistics/) and reproducible validation/analysis commands. The primary score export contains all five dimension scores and rationales from manuscript Table S6. The current snapshot includes the updated MiniMax M3 answers and evaluations.
-
-```bash
-python3 10_benchmark/scripts/validate_benchmark.py
-python3 -m pip install -r 10_benchmark/requirements.txt
-python3 10_benchmark/scripts/analyze_benchmark.py --output-dir 10_benchmark/recomputed
-```
+See the [benchmark README](10_benchmark/README.md) for the study design, data fields and distinction between repeated scoring and repeated generation. The two repeat-score files share 270 primary evaluations and should not be pooled as independent observations.

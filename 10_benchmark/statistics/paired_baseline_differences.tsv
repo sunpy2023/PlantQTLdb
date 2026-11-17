@@ -1,8 +1,0 @@
-Comparison	Questions	Mean paired difference	CI lower	CI upper	Wins	Ties	Losses
-Full Assistant minus DeepSeek V4 Pro	300	43.726666667	41.753333333	45.743416667	299	0	1
-Full Assistant minus DeepSeek V4.1 Flash	300	38.993333333	36.969916667	41.046666667	299	0	1
-Full Assistant minus GLM-5.3	300	40.746666667	38.709750000	42.800083333	297	0	3
-Full Assistant minus GPT-5.6 Sol	300	27.906666667	25.779916667	30.013416667	286	3	11
-Full Assistant minus Kimi K2.5	300	53.946666667	51.909916667	55.950000000	300	0	0
-Full Assistant minus MiniMax M3	300	54.213333333	52.306583333	56.116750000	300	0	0
-Full Assistant minus Qwen-3.8-Flash	300	49.963333333	47.729916667	52.126666667	299	0	1

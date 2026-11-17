@@ -6,7 +6,7 @@ In the default workflow, verification is performed once per question; independen
 
 If output validation identifies a quotation taken from a different candidate, the affected answer is re-evaluated once in isolation using the same rubric and shared factual evidence, without other candidates' complete answers or prior grades. Unaffected judgments are retained; original output and recovery requests are recorded separately. Invalid recovery remains unpublished. This is technical error recovery, not an additional independent scoring round.
 
-The [TSV rubric](scoring_rubric.tsv) contains the same dimension definitions and scoring bands. See the [benchmark guide](README.md) for the published data schema, validation commands, statistical analysis and provenance. This introduction is not sent to the evaluator; only the delimited prompts below are used.
+The [TSV rubric](scoring_rubric.tsv) contains the same dimension definitions and scoring bands. See the [benchmark guide](README.md) for the published data schema and evaluation design. This introduction is not sent to the evaluator; only the delimited prompts below are used.
 
 ## Judge prompt begins
 
