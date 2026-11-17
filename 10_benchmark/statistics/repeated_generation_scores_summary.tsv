@@ -1,0 +1,10 @@
+System configuration	Questions	Mean score range	Maximum score range	Mean sample SD	Responses or questions with range <=10	Identical scores across rounds
+DeepSeek V4 Pro	30	15.933333333	48	8.348821418	10	3
+DeepSeek V4.1 Flash	30	12.300000000	36	6.449899224	16	1
+GLM-5.3	30	14.233333333	46	7.381704793	15	0
+GPT-5.6 Sol	30	16.566666667	62	8.852888606	12	2
+Kimi K2.5	30	13.000000000	45	6.887510768	15	0
+MiniMax M3	30	16.100000000	49	8.406042416	11	0
+PlantQTLdb Assistant (DeepSeek V4.1 Flash)	30	3.900000000	19	2.143355394	28	4
+PlantQTLdb Assistant (DeepSeek V4.1 Flash; literature KG only)	30	9.300000000	30	4.854921538	17	1
+Qwen-3.8-Flash	30	17.266666667	68	9.232443823	10	0

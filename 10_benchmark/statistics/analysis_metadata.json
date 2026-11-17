@@ -1,0 +1,19 @@
+{
+  "bootstrap_resamples": 10000,
+  "overall_and_baseline_seed": 20261115,
+  "resource_ablation_seed": 20261116,
+  "sample_sd_ddof": 1,
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "pandas": "3.0.1",
+  "input_sha256": {
+    "questions.tsv": "89bb47b0fd96a32fb1934dcb42dd2f11f408b6fff080c91a3e0a19de41375058",
+    "task_categories.tsv": "e3b31a848ee3f7b6e73caa2019833690a9358ade08c55110fcb5596b121cb99c",
+    "scoring_rubric.tsv": "8daf64544c79f152a3d543fb0dbaede13cb16d64c7cfb81cc022825ac0a7057d",
+    "responses/primary_responses.tsv": "cf223db25dda11e67beb6596709400eed5b4cd03c181d75b8c58a3f58a7cf209",
+    "responses/repeated_generation_responses.tsv": "807deb53ae1e6e6d5c8301cd4e06d0638299aec624c24436f10eeb9db7bc7d68",
+    "scores/primary_scores.tsv": "734fc6a519b3ab519bff605fa82bd1f94cd98eaf14b99716d53e1e916cdefc98",
+    "scores/repeated_scoring.tsv": "d384f0ed9e6e19cf669599847c062e5a50d02b70f401ea32cc6982d7b5df688d",
+    "scores/repeated_generation_scores.tsv": "45a7fa372d96a478764db464af77f9118b41ed84817e4b5e7b36c14962084487"
+  }
+}

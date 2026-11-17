@@ -1,0 +1,55 @@
+System configuration	Task category	Questions	Mean total score
+DeepSeek V4 Pro	Candidate-gene selection and prioritization	50	42.340000000
+DeepSeek V4 Pro	Evidence evaluation and hypothesis testing	50	59.640000000
+DeepSeek V4 Pro	Gene function and mechanism	50	64.400000000
+DeepSeek V4 Pro	Gene identifiers and genome annotation	50	62.780000000
+DeepSeek V4 Pro	Genetic variation and locus analysis	50	32.760000000
+DeepSeek V4 Pro	Molecular phenotypes and genetic regulation	50	45.840000000
+DeepSeek V4.1 Flash	Candidate-gene selection and prioritization	50	48.780000000
+DeepSeek V4.1 Flash	Evidence evaluation and hypothesis testing	50	70.860000000
+DeepSeek V4.1 Flash	Gene function and mechanism	50	74.100000000
+DeepSeek V4.1 Flash	Gene identifiers and genome annotation	50	60.880000000
+DeepSeek V4.1 Flash	Genetic variation and locus analysis	50	27.780000000
+DeepSeek V4.1 Flash	Molecular phenotypes and genetic regulation	50	53.760000000
+GLM-5.3	Candidate-gene selection and prioritization	50	45.300000000
+GLM-5.3	Evidence evaluation and hypothesis testing	50	65.080000000
+GLM-5.3	Gene function and mechanism	50	69.660000000
+GLM-5.3	Gene identifiers and genome annotation	50	57.480000000
+GLM-5.3	Genetic variation and locus analysis	50	34.000000000
+GLM-5.3	Molecular phenotypes and genetic regulation	50	54.120000000
+GPT-5.6 Sol	Candidate-gene selection and prioritization	50	62.340000000
+GPT-5.6 Sol	Evidence evaluation and hypothesis testing	50	82.500000000
+GPT-5.6 Sol	Gene function and mechanism	50	79.260000000
+GPT-5.6 Sol	Gene identifiers and genome annotation	50	69.420000000
+GPT-5.6 Sol	Genetic variation and locus analysis	50	45.660000000
+GPT-5.6 Sol	Molecular phenotypes and genetic regulation	50	63.500000000
+Kimi K2.5	Candidate-gene selection and prioritization	50	32.280000000
+Kimi K2.5	Evidence evaluation and hypothesis testing	50	51.600000000
+Kimi K2.5	Gene function and mechanism	50	57.800000000
+Kimi K2.5	Gene identifiers and genome annotation	50	39.060000000
+Kimi K2.5	Genetic variation and locus analysis	50	23.880000000
+Kimi K2.5	Molecular phenotypes and genetic regulation	50	41.820000000
+MiniMax M3	Candidate-gene selection and prioritization	50	33.440000000
+MiniMax M3	Evidence evaluation and hypothesis testing	50	57.660000000
+MiniMax M3	Gene function and mechanism	50	50.320000000
+MiniMax M3	Gene identifiers and genome annotation	50	32.840000000
+MiniMax M3	Genetic variation and locus analysis	50	29.100000000
+MiniMax M3	Molecular phenotypes and genetic regulation	50	41.480000000
+PlantQTLdb Assistant (DeepSeek V4.1 Flash)	Candidate-gene selection and prioritization	50	91.920000000
+PlantQTLdb Assistant (DeepSeek V4.1 Flash)	Evidence evaluation and hypothesis testing	50	93.440000000
+PlantQTLdb Assistant (DeepSeek V4.1 Flash)	Gene function and mechanism	50	95.480000000
+PlantQTLdb Assistant (DeepSeek V4.1 Flash)	Gene identifiers and genome annotation	50	98.960000000
+PlantQTLdb Assistant (DeepSeek V4.1 Flash)	Genetic variation and locus analysis	50	93.440000000
+PlantQTLdb Assistant (DeepSeek V4.1 Flash)	Molecular phenotypes and genetic regulation	50	96.880000000
+PlantQTLdb Assistant (DeepSeek V4.1 Flash; literature KG only)	Candidate-gene selection and prioritization	50	88.420000000
+PlantQTLdb Assistant (DeepSeek V4.1 Flash; literature KG only)	Evidence evaluation and hypothesis testing	50	90.480000000
+PlantQTLdb Assistant (DeepSeek V4.1 Flash; literature KG only)	Gene function and mechanism	50	94.440000000
+PlantQTLdb Assistant (DeepSeek V4.1 Flash; literature KG only)	Gene identifiers and genome annotation	50	89.040000000
+PlantQTLdb Assistant (DeepSeek V4.1 Flash; literature KG only)	Genetic variation and locus analysis	50	71.680000000
+PlantQTLdb Assistant (DeepSeek V4.1 Flash; literature KG only)	Molecular phenotypes and genetic regulation	50	79.600000000
+Qwen-3.8-Flash	Candidate-gene selection and prioritization	50	35.680000000
+Qwen-3.8-Flash	Evidence evaluation and hypothesis testing	50	65.040000000
+Qwen-3.8-Flash	Gene function and mechanism	50	67.880000000
+Qwen-3.8-Flash	Gene identifiers and genome annotation	50	33.540000000
+Qwen-3.8-Flash	Genetic variation and locus analysis	50	21.880000000
+Qwen-3.8-Flash	Molecular phenotypes and genetic regulation	50	46.320000000
