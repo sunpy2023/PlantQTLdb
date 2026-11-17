@@ -1,301 +1,301 @@
 Question ID	Species group	Task category	Question	Repeat subset
-NQ-AT-001	Arabidopsis thaliana	Gene function and mechanism	How does WUSCHEL maintain stem cells in the Arabidopsis shoot apical meristem?	yes
-NQ-AT-002	Arabidopsis thaliana	Gene function and mechanism	What roles do SHORT-ROOT and SCARECROW play in establishing the tissue layers of Arabidopsis roots?	yes
-NQ-AT-003	Arabidopsis thaliana	Gene function and mechanism	How do ARF7 and ARF19 regulate lateral-root formation in Arabidopsis?	no
-NQ-AT-004	Arabidopsis thaliana	Gene function and mechanism	What happens to stomatal development when SPEECHLESS is disrupted in Arabidopsis?	no
-NQ-AT-005	Arabidopsis thaliana	Gene function and mechanism	How does PIN1 influence where new leaves form in Arabidopsis?	no
-NQ-AT-006	Arabidopsis thaliana	Gene function and mechanism	How does CONSTANS promote flowering under long-day conditions in Arabidopsis?	no
-NQ-AT-007	Arabidopsis thaliana	Gene function and mechanism	How does prolonged cold affect FLC expression and flowering in Arabidopsis?	no
-NQ-AT-008	Arabidopsis thaliana	Gene function and mechanism	How do APETALA3 and PISTILLATA determine floral organ identity in Arabidopsis?	no
-NQ-AT-009	Arabidopsis thaliana	Gene function and mechanism	What role does DOG1 play in Arabidopsis seed dormancy?	no
-NQ-AT-010	Arabidopsis thaliana	Gene function and mechanism	How does ABI5 mediate the effects of abscisic acid on germination and early seedling growth in Arabidopsis?	no
-NQ-AT-011	Arabidopsis thaliana	Gene function and mechanism	How does TIR1 perceive auxin and initiate a response in Arabidopsis?	no
-NQ-AT-012	Arabidopsis thaliana	Gene function and mechanism	How does BRI1 initiate brassinosteroid signalling in Arabidopsis?	no
-NQ-AT-013	Arabidopsis thaliana	Gene function and mechanism	What is the role of EIN2 in ethylene signalling in Arabidopsis?	no
-NQ-AT-014	Arabidopsis thaliana	Gene function and mechanism	Why do Arabidopsis cop1 seedlings show light-grown characteristics even in darkness?	no
-NQ-AT-015	Arabidopsis thaliana	Gene function and mechanism	How does DCL1 contribute to microRNA production in Arabidopsis?	no
-NQ-AT-016	Arabidopsis thaliana	Gene function and mechanism	How does NRT1.1 contribute to both nitrate uptake and nitrate sensing in Arabidopsis?	no
-NQ-AT-017	Arabidopsis thaliana	Gene function and mechanism	How does PHR1 regulate the response to phosphate deficiency in Arabidopsis?	no
-NQ-AT-018	Arabidopsis thaliana	Gene function and mechanism	Why is FRO2 important for iron uptake by Arabidopsis roots?	no
-NQ-AT-019	Arabidopsis thaliana	Gene function and mechanism	How does loss of ADG1 affect starch synthesis in Arabidopsis?	no
-NQ-AT-020	Arabidopsis thaliana	Gene function and mechanism	How does ATG5 contribute to nutrient recycling during nitrogen starvation in Arabidopsis?	no
-NQ-AT-021	Arabidopsis thaliana	Gene function and mechanism	How does SLAC1 contribute to abscisic acid–induced stomatal closure in Arabidopsis?	yes
-NQ-AT-022	Arabidopsis thaliana	Gene function and mechanism	How does SOS1 help Arabidopsis maintain sodium balance under salt stress?	no
-NQ-AT-023	Arabidopsis thaliana	Gene function and mechanism	How does HSP101 help Arabidopsis recover from heat stress?	no
-NQ-AT-024	Arabidopsis thaliana	Gene function and mechanism	How does FLS2 recognize bacterial flagellin and activate immune signalling in Arabidopsis?	no
-NQ-AT-025	Arabidopsis thaliana	Gene function and mechanism	What role does NPR1 play in salicylic acid–induced defence in Arabidopsis?	no
-NQ-AT-026	Arabidopsis thaliana	Gene identifiers and genome annotation	What is the gene ID for Arabidopsis HKT1?	no
-NQ-AT-027	Arabidopsis thaliana	Gene identifiers and genome annotation	What is the gene ID for Arabidopsis FCA?	yes
-NQ-AT-028	Arabidopsis thaliana	Gene identifiers and genome annotation	Which Arabidopsis gene is AT2G18790, and what protein does it encode?	no
-NQ-AT-029	Arabidopsis thaliana	Gene identifiers and genome annotation	Which Arabidopsis gene is AT3G18780, and what protein does it encode?	no
-NQ-AT-030	Arabidopsis thaliana	Gene identifiers and genome annotation	Do NRT1.1 and NPF6.3 refer to the same Arabidopsis gene? What is its gene ID?	no
-NQ-AT-031	Arabidopsis thaliana	Gene identifiers and genome annotation	Do DREB1A and CBF3 refer to the same Arabidopsis gene? What is its gene ID?	no
-NQ-AT-032	Arabidopsis thaliana	Gene identifiers and genome annotation	Are SOC1 and AGL20 names for the same Arabidopsis gene? What is its gene ID?	no
-NQ-AT-033	Arabidopsis thaliana	Gene identifiers and genome annotation	What are the gene IDs for Arabidopsis PIF4 and PIF5?	no
-NQ-AT-034	Arabidopsis thaliana	Gene identifiers and genome annotation	Are Arabidopsis FLC and FLM distinct genes? What are their gene IDs?	no
-NQ-AT-035	Arabidopsis thaliana	Gene identifiers and genome annotation	What type of gene is Arabidopsis AT2G25095, and what is its annotated product?	no
-NQ-AT-036	Arabidopsis thaliana	Gene identifiers and genome annotation	Which Arabidopsis gene does transcript AT1G01010.1 belong to, and what protein does it encode?	no
-NQ-AT-037	Arabidopsis thaliana	Gene identifiers and genome annotation	How do the coding sequences of Arabidopsis transcripts AT1G03160.1 and AT1G03160.2 differ?	no
-NQ-AT-038	Arabidopsis thaliana	Gene identifiers and genome annotation	On which chromosome and strand is Arabidopsis FT located?	no
-NQ-AT-039	Arabidopsis thaliana	Gene identifiers and genome annotation	What are the genomic coordinates of Arabidopsis FPA in the TAIR10 reference genome?	no
-NQ-AT-040	Arabidopsis thaliana	Gene identifiers and genome annotation	What other names are used for Arabidopsis NPR1, and what is its gene ID?	no
-NQ-AT-041	Arabidopsis thaliana	Gene identifiers and genome annotation	How many exons and introns does Arabidopsis GL1 have?	no
-NQ-AT-042	Arabidopsis thaliana	Gene identifiers and genome annotation	What conserved domains are present in the Arabidopsis ABI5 protein?	no
-NQ-AT-043	Arabidopsis thaliana	Gene identifiers and genome annotation	How do the annotated transcripts of Arabidopsis SVP differ in exon structure?	yes
-NQ-AT-044	Arabidopsis thaliana	Gene identifiers and genome annotation	Which transcript isoforms are annotated for Arabidopsis DOG1?	no
-NQ-AT-045	Arabidopsis thaliana	Gene identifiers and genome annotation	What are the CDS length and predicted protein length of Arabidopsis CO transcript AT5G15840.1?	no
-NQ-AT-046	Arabidopsis thaliana	Gene identifiers and genome annotation	How do the annotated transcripts of Arabidopsis FCA differ in their coding regions and 3′ UTRs?	yes
-NQ-AT-047	Arabidopsis thaliana	Gene identifiers and genome annotation	Which protein-coding genes are closest to Arabidopsis FLC on either side?	no
-NQ-AT-048	Arabidopsis thaliana	Gene identifiers and genome annotation	How are Arabidopsis CBF1, CBF2 and CBF3 arranged on chromosome 4?	no
-NQ-AT-049	Arabidopsis thaliana	Gene identifiers and genome annotation	Which Arabidopsis genes encode Rubisco small subunits, and on which chromosomes are they located?	no
-NQ-AT-050	Arabidopsis thaliana	Molecular phenotypes and genetic regulation	How does NRT1.1 expression differ across Arabidopsis tissues?	no
-NQ-AT-051	Arabidopsis thaliana	Molecular phenotypes and genetic regulation	How does HKT1 expression compare between Arabidopsis roots and leaves?	no
-NQ-AT-052	Arabidopsis thaliana	Molecular phenotypes and genetic regulation	How much does FLC expression vary among Arabidopsis accessions?	no
-NQ-AT-053	Arabidopsis thaliana	Molecular phenotypes and genetic regulation	Which cells express WUS in the Arabidopsis shoot apical meristem?	no
-NQ-AT-054	Arabidopsis thaliana	Molecular phenotypes and genetic regulation	How does AP1 expression change during the transition to flowering in Arabidopsis?	no
-NQ-AT-055	Arabidopsis thaliana	Molecular phenotypes and genetic regulation	How does DOG1 expression change during seed maturation and after imbibition in Arabidopsis?	yes
-NQ-AT-056	Arabidopsis thaliana	Molecular phenotypes and genetic regulation	How do daily FT expression patterns differ between long and short days in Arabidopsis?	no
-NQ-AT-057	Arabidopsis thaliana	Molecular phenotypes and genetic regulation	How do the daily expression peaks of CCA1 and TOC1 differ in Arabidopsis?	no
-NQ-AT-058	Arabidopsis thaliana	Molecular phenotypes and genetic regulation	How does dehydration affect RD29A expression in Arabidopsis?	no
-NQ-AT-059	Arabidopsis thaliana	Molecular phenotypes and genetic regulation	How does HSP101 expression change during heat treatment and recovery in Arabidopsis?	no
-NQ-AT-060	Arabidopsis thaliana	Molecular phenotypes and genetic regulation	After nitrogen starvation, how does nitrate resupply affect NRT2.1 expression in Arabidopsis roots?	no
-NQ-AT-061	Arabidopsis thaliana	Molecular phenotypes and genetic regulation	How does phosphate deficiency affect PHT1;4 expression in Arabidopsis roots?	no
-NQ-AT-062	Arabidopsis thaliana	Molecular phenotypes and genetic regulation	How does temperature affect FLM alternative splicing in Arabidopsis?	yes
-NQ-AT-063	Arabidopsis thaliana	Molecular phenotypes and genetic regulation	Does splice-site usage in SR45 differ among Arabidopsis accessions?	no
-NQ-AT-064	Arabidopsis thaliana	Molecular phenotypes and genetic regulation	How much does intron retention in DCL1 vary among Arabidopsis accessions?	no
-NQ-AT-065	Arabidopsis thaliana	Molecular phenotypes and genetic regulation	What alternative-splicing events are observed for RCA in Arabidopsis?	no
-NQ-AT-066	Arabidopsis thaliana	Molecular phenotypes and genetic regulation	Which poly(A) sites are used by FCA transcripts in Arabidopsis?	no
-NQ-AT-067	Arabidopsis thaliana	Molecular phenotypes and genetic regulation	Does the relative use of FPA poly(A) sites vary among Arabidopsis accessions?	no
-NQ-AT-068	Arabidopsis thaliana	Molecular phenotypes and genetic regulation	Does alternative polyadenylation of Arabidopsis CPSF30 alter only the 3′ UTR, or also the coding sequence?	no
-NQ-AT-069	Arabidopsis thaliana	Molecular phenotypes and genetic regulation	How does the relative use of proximal and distal poly(A) sites in FY vary among Arabidopsis accessions?	no
-NQ-AT-070	Arabidopsis thaliana	Molecular phenotypes and genetic regulation	Which natural genetic variants are associated with FLC expression in Arabidopsis?	no
-NQ-AT-071	Arabidopsis thaliana	Molecular phenotypes and genetic regulation	What cis- and trans-eQTL evidence is available for FPA expression in Arabidopsis?	no
-NQ-AT-072	Arabidopsis thaliana	Molecular phenotypes and genetic regulation	Which genetic variants are associated with FLM splicing in Arabidopsis?	no
-NQ-AT-073	Arabidopsis thaliana	Molecular phenotypes and genetic regulation	Which genetic variants are associated with FY poly(A)-site usage in Arabidopsis?	no
-NQ-AT-074	Arabidopsis thaliana	Molecular phenotypes and genetic regulation	Are any genetic variants associated with both expression and poly(A)-site usage of Arabidopsis PHR1 (AT4G28610)?	no
-NQ-AT-075	Arabidopsis thaliana	Genetic variation and locus analysis	Which natural FRI variants have been linked to early flowering in Arabidopsis?	no
-NQ-AT-076	Arabidopsis thaliana	Genetic variation and locus analysis	Which natural ACD6 variants have been linked to differences in Arabidopsis growth and defence?	no
-NQ-AT-077	Arabidopsis thaliana	Genetic variation and locus analysis	Which naturally occurring SNPs in Arabidopsis PIF4 are predicted to change its amino acid sequence?	yes
-NQ-AT-078	Arabidopsis thaliana	Genetic variation and locus analysis	Which natural variants in Arabidopsis DCL1 are annotated as splice-site or splice-region variants?	yes
-NQ-AT-079	Arabidopsis thaliana	Genetic variation and locus analysis	What amino acid change is predicted for Arabidopsis chr5:14,008,184 A>G (TAIR10)?	no
-NQ-AT-080	Arabidopsis thaliana	Genetic variation and locus analysis	How are aluminum-tolerance GWAS hits distributed within ALMT1 and 50 kb on either side in Arabidopsis?	no
-NQ-AT-081	Arabidopsis thaliana	Genetic variation and locus analysis	Which traits have GWAS hits within HAK5 or 50 kb on either side in Arabidopsis?	no
-NQ-AT-082	Arabidopsis thaliana	Genetic variation and locus analysis	Which glucosinolate traits have GWAS hits within MAM1 or 50 kb on either side in Arabidopsis?	no
-NQ-AT-083	Arabidopsis thaliana	Genetic variation and locus analysis	Which GWAS variants within HMA3 or 50 kb on either side are associated with leaf cadmium concentration in Arabidopsis?	no
-NQ-AT-084	Arabidopsis thaliana	Genetic variation and locus analysis	Is there GWAS evidence for shade responses within PHYC or 50 kb on either side in Arabidopsis?	yes
-NQ-AT-085	Arabidopsis thaliana	Genetic variation and locus analysis	Where are Arabidopsis DOG1 cis-eQTL signals located relative to the gene?	no
-NQ-AT-086	Arabidopsis thaliana	Genetic variation and locus analysis	Where are eQTLs associated with FT expression located in the Arabidopsis genome?	no
-NQ-AT-087	Arabidopsis thaliana	Genetic variation and locus analysis	Which cis-eQTL variants associated with Arabidopsis DCL1 expression lie within the gene?	no
-NQ-AT-088	Arabidopsis thaliana	Genetic variation and locus analysis	Which alternative-splicing events in Arabidopsis SR30 have sQTL associations?	no
-NQ-AT-089	Arabidopsis thaliana	Genetic variation and locus analysis	Which splicing events in Arabidopsis SCL33 have sQTL support?	no
-NQ-AT-090	Arabidopsis thaliana	Genetic variation and locus analysis	Which sQTL variants associated with Arabidopsis FLM splicing lie in introns or near splice sites?	no
-NQ-AT-091	Arabidopsis thaliana	Genetic variation and locus analysis	Which variants are associated with poly(A)-site usage in Arabidopsis SR45?	no
-NQ-AT-092	Arabidopsis thaliana	Genetic variation and locus analysis	Where are apaQTL variants associated with Arabidopsis MAM1 poly(A)-site usage located relative to the gene?	no
-NQ-AT-093	Arabidopsis thaliana	Genetic variation and locus analysis	Do FLC eQTLs colocalize with flowering-time GWAS signals in Arabidopsis?	no
-NQ-AT-094	Arabidopsis thaliana	Genetic variation and locus analysis	Do FLM sQTLs colocalize with flowering-time GWAS signals in Arabidopsis?	no
-NQ-AT-095	Arabidopsis thaliana	Genetic variation and locus analysis	Do FY apaQTLs colocalize with flowering-time GWAS signals in Arabidopsis?	no
-NQ-AT-096	Arabidopsis thaliana	Genetic variation and locus analysis	Does colocalization support a shared genetic signal for MOT1 expression and molybdenum accumulation in Arabidopsis?	no
-NQ-AT-097	Arabidopsis thaliana	Genetic variation and locus analysis	Do any AOP2 apaQTL variants occur at the same genomic positions as glucosinolate-associated GWAS hits in Arabidopsis?	no
-NQ-AT-098	Arabidopsis thaliana	Genetic variation and locus analysis	Which natural variants in Arabidopsis HKT1 are associated with differences in leaf sodium concentration?	no
-NQ-AT-099	Arabidopsis thaliana	Genetic variation and locus analysis	What sequence differences distinguish the CRY2 alleles of Arabidopsis accessions Cvi and Ler?	no
-NQ-AT-100	Arabidopsis thaliana	Candidate-gene selection and prioritization	Which Arabidopsis flowering-time candidate genes would you prioritize based on GWAS and gene-expression evidence?	no
-NQ-AT-101	Arabidopsis thaliana	Candidate-gene selection and prioritization	Which genes would you prioritize for studying natural variation in Arabidopsis seed dormancy, based on genetic and functional evidence?	no
-NQ-AT-102	Arabidopsis thaliana	Candidate-gene selection and prioritization	Which Arabidopsis leaf-sodium candidate genes have the strongest support from GWAS and expression data?	no
-NQ-AT-103	Arabidopsis thaliana	Candidate-gene selection and prioritization	Which genes would you prioritize for studying variation in Arabidopsis leaf cadmium concentration, based on genetic and functional evidence?	no
-NQ-AT-104	Arabidopsis thaliana	Candidate-gene selection and prioritization	Which Arabidopsis molybdenum-accumulation candidate genes would you prioritize after comparing eQTL and GWAS evidence?	no
-NQ-AT-105	Arabidopsis thaliana	Candidate-gene selection and prioritization	Which genes would you prioritize for studying variation in Arabidopsis glucosinolate content, using genetic and expression evidence?	no
-NQ-AT-106	Arabidopsis thaliana	Candidate-gene selection and prioritization	Which genes would you prioritize for salt-induced changes in Arabidopsis lateral-root growth, based on GWAS and root-expression evidence?	no
-NQ-AT-107	Arabidopsis thaliana	Candidate-gene selection and prioritization	Which genes are the strongest candidates for Arabidopsis root-growth responses to phosphate deficiency, based on GWAS and functional studies?	no
-NQ-AT-108	Arabidopsis thaliana	Candidate-gene selection and prioritization	Which Arabidopsis stomatal-size candidate genes would you prioritize using GWAS and leaf-expression evidence?	no
-NQ-AT-109	Arabidopsis thaliana	Candidate-gene selection and prioritization	Which genes would you prioritize for Arabidopsis seed-longevity studies, based on GWAS and experimental evidence?	no
-NQ-AT-110	Arabidopsis thaliana	Candidate-gene selection and prioritization	Which genes in the Arabidopsis ALMT1 region, including 50 kb on either side, would you prioritize for aluminum-tolerance studies?	no
-NQ-AT-111	Arabidopsis thaliana	Candidate-gene selection and prioritization	Which genes in the Arabidopsis MAM1 region, including 50 kb on either side, would you prioritize for glucosinolate studies?	no
-NQ-AT-112	Arabidopsis thaliana	Candidate-gene selection and prioritization	Which genes in the Arabidopsis HKT1 region, including 50 kb on either side, have the strongest evidence for leaf-sodium variation?	yes
-NQ-AT-113	Arabidopsis thaliana	Candidate-gene selection and prioritization	Which genes in the Arabidopsis FLC region, including 50 kb on either side, would you prioritize for flowering-time studies?	no
-NQ-AT-114	Arabidopsis thaliana	Candidate-gene selection and prioritization	Based on splicing–trait associations, which Arabidopsis genes would you prioritize for investigating flowering-time variation?	no
-NQ-AT-115	Arabidopsis thaliana	Candidate-gene selection and prioritization	Which Arabidopsis flowering-time candidates would you prioritize based on associations with poly(A)-site usage?	no
-NQ-AT-116	Arabidopsis thaliana	Candidate-gene selection and prioritization	Which Arabidopsis growth-rate candidate genes would you prioritize by comparing expression and splicing associations?	no
-NQ-AT-117	Arabidopsis thaliana	Candidate-gene selection and prioritization	Which genes would you prioritize for Arabidopsis raffinose-accumulation studies, using expression associations and functional evidence?	no
-NQ-AT-118	Arabidopsis thaliana	Candidate-gene selection and prioritization	Which Arabidopsis genes with poly(A)-site usage associated with leaf cadmium concentration would you prioritize for validation?	no
-NQ-AT-119	Arabidopsis thaliana	Candidate-gene selection and prioritization	Which Arabidopsis trichome-density candidate genes have the strongest combined genetic and expression evidence?	no
-NQ-AT-120	Arabidopsis thaliana	Candidate-gene selection and prioritization	Which Arabidopsis flowering-time candidate genes are supported across multiple GWAS studies and deserve priority for validation?	yes
-NQ-AT-121	Arabidopsis thaliana	Candidate-gene selection and prioritization	Which genes would you prioritize for Arabidopsis root growth under zinc deficiency, using genetic and expression evidence?	no
-NQ-AT-122	Arabidopsis thaliana	Candidate-gene selection and prioritization	Which genes would you prioritize for Arabidopsis primary-root responses to ABA, based on genetic associations and functional evidence?	no
-NQ-AT-123	Arabidopsis thaliana	Candidate-gene selection and prioritization	Which candidate regulators of Arabidopsis FLM splicing would you prioritize based on trans-sQTL signals and gene annotations?	no
-NQ-AT-124	Arabidopsis thaliana	Candidate-gene selection and prioritization	Which would you prioritize as a target for improving water-use efficiency in Arabidopsis, EPF1 or EPF2, and why?	no
-NQ-AT-125	Arabidopsis thaliana	Evidence evaluation and hypothesis testing	What genetic and molecular evidence supports FLC as a mediator of the effect of FRI on Arabidopsis flowering?	no
-NQ-AT-126	Arabidopsis thaliana	Evidence evaluation and hypothesis testing	How well do DOG1 transcript and protein levels explain differences in Arabidopsis seed dormancy?	no
-NQ-AT-127	Arabidopsis thaliana	Evidence evaluation and hypothesis testing	What experimental evidence supports a role for FLM splicing in mediating the effect of temperature on Arabidopsis flowering?	no
-NQ-AT-128	Arabidopsis thaliana	Evidence evaluation and hypothesis testing	How do HKT1-associated differences in leaf sodium relate to salt tolerance in Arabidopsis?	no
-NQ-AT-129	Arabidopsis thaliana	Evidence evaluation and hypothesis testing	Do defence-enhancing ACD6 alleles impose the same growth penalty across Arabidopsis genetic backgrounds?	no
-NQ-AT-130	Arabidopsis thaliana	Evidence evaluation and hypothesis testing	How strong is the evidence that natural variation in MOT1 contributes to differences in Arabidopsis molybdenum accumulation?	no
-NQ-AT-131	Arabidopsis thaliana	Evidence evaluation and hypothesis testing	What evidence shows that poly(A)-site choice affects the production of functional FCA protein in Arabidopsis?	no
-NQ-AT-132	Arabidopsis thaliana	Evidence evaluation and hypothesis testing	What do complementation experiments reveal about the roles of the short and long CPSF30 protein isoforms in Arabidopsis nitrate responses?	yes
-NQ-AT-133	Arabidopsis thaliana	Evidence evaluation and hypothesis testing	What experimental evidence distinguishes the roles of SR45 splice isoforms in Arabidopsis root and petal development?	no
-NQ-AT-134	Arabidopsis thaliana	Evidence evaluation and hypothesis testing	What genetic evidence supports overlapping functions of PHT1;1 and PHT1;4 in Arabidopsis phosphate uptake?	no
-NQ-AT-135	Arabidopsis thaliana	Evidence evaluation and hypothesis testing	What support do genetic associations and functional experiments each provide for the hypothesis that FLC expression affects Arabidopsis flowering time?	yes
-NQ-AT-136	Arabidopsis thaliana	Evidence evaluation and hypothesis testing	How would you test whether altered MAM1 poly(A)-site usage affects Arabidopsis glucosinolate content?	no
-NQ-AT-137	Arabidopsis thaliana	Evidence evaluation and hypothesis testing	If an Arabidopsis DCL1 variant has both a splice-region annotation and sQTL support, what further evidence would establish its effect on splicing?	no
-NQ-AT-138	Arabidopsis thaliana	Evidence evaluation and hypothesis testing	How would you distinguish direct effects of FPA on poly(A)-site choice from indirect changes in an Arabidopsis fpa mutant?	no
-NQ-AT-139	Arabidopsis thaliana	Evidence evaluation and hypothesis testing	If an aluminum-tolerance GWAS signal near ALMT1 is not replicated in another Arabidopsis population, how should its reliability be assessed?	no
-NQ-AT-140	Arabidopsis thaliana	Evidence evaluation and hypothesis testing	What experimental evidence distinguishes the contributions of root and shoot HKT1 to sodium distribution in Arabidopsis?	no
-NQ-AT-141	Arabidopsis thaliana	Evidence evaluation and hypothesis testing	How does the evidence for HMA3 expression differences compare with that for protein-function differences in explaining Arabidopsis leaf cadmium variation?	no
-NQ-AT-142	Arabidopsis thaliana	Evidence evaluation and hypothesis testing	How could a glucosinolate association near Arabidopsis MAM1 be distinguished as an effect of one gene versus several linked genes?	no
-NQ-AT-143	Arabidopsis thaliana	Evidence evaluation and hypothesis testing	What experimental evidence links natural variation in HAC1 to differences in Arabidopsis arsenic accumulation?	no
-NQ-AT-144	Arabidopsis thaliana	Evidence evaluation and hypothesis testing	How should candidates at an Arabidopsis flowering-time GWAS locus be evaluated when gene proximity and eQTL or functional evidence point to different genes?	no
-NQ-AT-145	Arabidopsis thaliana	Evidence evaluation and hypothesis testing	How would you test whether a natural MOT1 promoter variant affects Arabidopsis molybdenum accumulation through altered expression?	no
-NQ-AT-146	Arabidopsis thaliana	Evidence evaluation and hypothesis testing	How could the effect of a putative FLM splicing variant be separated from effects of nearby linked variants in Arabidopsis?	no
-NQ-AT-147	Arabidopsis thaliana	Evidence evaluation and hypothesis testing	What controls are needed to test whether altered FCA poly(A)-site usage affects Arabidopsis flowering?	no
-NQ-AT-148	Arabidopsis thaliana	Evidence evaluation and hypothesis testing	What functional evidence is needed to assess whether RD29A can improve Arabidopsis drought tolerance?	no
-NQ-AT-149	Arabidopsis thaliana	Evidence evaluation and hypothesis testing	Beyond stomatal density, which traits should be measured when evaluating EPF2 as a target for improving Arabidopsis water-use efficiency?	no
-NQ-AT-150	Arabidopsis thaliana	Gene identifiers and genome annotation	Is Arabidopsis rbcL encoded in the nuclear or chloroplast genome, and what is its gene ID?	no
-NQ-OS-001	Oryza sativa	Gene function and mechanism	Why do rice moc1 mutants produce few or no tillers?	no
-NQ-OS-002	Oryza sativa	Gene function and mechanism	How does IPA1 (OsSPL14) regulate tiller number and panicle branching in rice?	no
-NQ-OS-003	Oryza sativa	Gene function and mechanism	What role does LAZY1 play in controlling rice tiller angle?	no
-NQ-OS-004	Oryza sativa	Gene function and mechanism	How does DRO1 influence root growth angle and drought avoidance in rice?	no
-NQ-OS-005	Oryza sativa	Gene function and mechanism	How does Hd1 regulate rice heading under short-day and long-day conditions?	no
-NQ-OS-006	Oryza sativa	Gene function and mechanism	How does Ehd1 regulate florigen expression and heading in rice?	no
-NQ-OS-007	Oryza sativa	Gene function and mechanism	How does Ghd7 influence heading date and grain number in rice?	no
-NQ-OS-008	Oryza sativa	Gene function and mechanism	What defects in anther development result from loss of TDR in rice?	no
-NQ-OS-009	Oryza sativa	Gene function and mechanism	How does the S5 locus affect fertility in indica–japonica rice hybrids?	no
-NQ-OS-010	Oryza sativa	Gene function and mechanism	How does Gn1a regulate grain number per panicle in rice?	no
-NQ-OS-011	Oryza sativa	Gene function and mechanism	How does GS3 regulate grain length in rice?	yes
-NQ-OS-012	Oryza sativa	Gene function and mechanism	Why can loss of GW2 increase grain width in rice?	no
-NQ-OS-013	Oryza sativa	Gene function and mechanism	What role does Waxy (Wx) play in amylose synthesis in rice endosperm?	no
-NQ-OS-014	Oryza sativa	Gene function and mechanism	How does ALK (SSIIa) influence the gelatinization temperature of rice starch?	no
-NQ-OS-015	Oryza sativa	Gene function and mechanism	Why does loss of GIF1 impair grain filling in rice?	no
-NQ-OS-016	Oryza sativa	Gene function and mechanism	Why do loss-of-function mutations in SD1 reduce rice plant height?	no
-NQ-OS-017	Oryza sativa	Gene function and mechanism	How does GID1 perceive gibberellin and activate growth responses in rice?	no
-NQ-OS-018	Oryza sativa	Gene function and mechanism	How does OsNRT1.1B contribute to differences in nitrate use between indica and japonica rice?	no
-NQ-OS-019	Oryza sativa	Gene function and mechanism	How does PSTOL1 help rice grow in phosphorus-deficient soils?	no
-NQ-OS-020	Oryza sativa	Gene function and mechanism	How does OsHKT1;5 regulate sodium accumulation in rice shoots?	yes
-NQ-OS-021	Oryza sativa	Gene function and mechanism	How do SUB1A and SNORKEL1/2 differ in the way they help rice cope with flooding?	no
-NQ-OS-022	Oryza sativa	Gene function and mechanism	What role does COLD1 play in chilling perception and tolerance in rice?	no
-NQ-OS-023	Oryza sativa	Gene function and mechanism	How does OsbZIP23 connect abscisic acid signalling with drought tolerance in rice?	no
-NQ-OS-024	Oryza sativa	Gene function and mechanism	How do CEBiP and OsCERK1 work together to trigger chitin-induced immune responses in rice?	no
-NQ-OS-025	Oryza sativa	Gene identifiers and genome annotation	What are the MSU and RAP gene IDs for rice OsNiR1?	no
-NQ-OS-026	Oryza sativa	Gene identifiers and genome annotation	Which rice gene is LOC_Os03g60080, and what protein does it encode?	no
-NQ-OS-027	Oryza sativa	Gene identifiers and genome annotation	Which MSU gene ID corresponds to the rice RAP identifier Os01g0307500?	no
-NQ-OS-028	Oryza sativa	Gene identifiers and genome annotation	Which RAP gene ID corresponds to LOC_Os05g08810 in rice?	no
-NQ-OS-029	Oryza sativa	Gene identifiers and genome annotation	Do IPA1 and WFP refer to the same rice gene? What are its MSU and RAP IDs?	yes
-NQ-OS-030	Oryza sativa	Gene identifiers and genome annotation	Are DTH8 and Ghd8 names for the same rice gene? What is its gene ID?	no
-NQ-OS-031	Oryza sativa	Gene identifiers and genome annotation	Do Gn1a and OsCKX2 refer to the same rice gene? What is its gene ID?	no
-NQ-OS-032	Oryza sativa	Gene identifiers and genome annotation	Are GS5 and GW5 different rice genes? What are their gene IDs?	no
-NQ-OS-033	Oryza sativa	Gene identifiers and genome annotation	What are the MSU and RAP gene IDs for rice Hd1 and Hd3a?	no
-NQ-OS-034	Oryza sativa	Gene identifiers and genome annotation	Which rice gene does transcript LOC_Os01g01010.1 belong to, and what protein does it encode?	no
-NQ-OS-035	Oryza sativa	Gene identifiers and genome annotation	How do rice transcripts LOC_Os01g68870.1 and LOC_Os01g68870.2 differ in exon structure?	no
-NQ-OS-036	Oryza sativa	Gene identifiers and genome annotation	On which chromosome and strand is OsNRT1.1B located in the Nipponbare reference genome?	no
-NQ-OS-037	Oryza sativa	Gene identifiers and genome annotation	What are the genomic coordinates of rice DRO1 in the Nipponbare IRGSP-1.0 reference genome?	yes
-NQ-OS-038	Oryza sativa	Gene identifiers and genome annotation	What type of transcription factor does rice OsSPL14 encode, and what is its characteristic domain?	no
-NQ-OS-039	Oryza sativa	Gene identifiers and genome annotation	How many exons and introns does rice SD1 have?	no
-NQ-OS-040	Oryza sativa	Gene identifiers and genome annotation	What are the gene IDs and chromosomal locations of rice OsHKT1;4 and OsHKT1;5?	no
-NQ-OS-041	Oryza sativa	Gene identifiers and genome annotation	How do rice TAC1 transcripts LOC_Os09g35980.1 and LOC_Os09g35980.2 differ in exon structure?	no
-NQ-OS-042	Oryza sativa	Gene identifiers and genome annotation	Which transcript isoforms are annotated for rice GS5?	no
-NQ-OS-043	Oryza sativa	Gene identifiers and genome annotation	What is the predicted protein length of rice Hd1 transcript LOC_Os06g16370.1?	no
-NQ-OS-044	Oryza sativa	Gene identifiers and genome annotation	How do the annotated transcripts of rice OsNiR1 differ in their coding regions?	no
-NQ-OS-045	Oryza sativa	Gene identifiers and genome annotation	Which genes immediately flank GW2 in the rice Nipponbare reference genome?	no
-NQ-OS-046	Oryza sativa	Gene identifiers and genome annotation	What conserved domains are present in the rice OsCERK1 protein?	no
-NQ-OS-047	Oryza sativa	Gene identifiers and genome annotation	Is SUB1A present in the Nipponbare reference genome?	no
-NQ-OS-048	Oryza sativa	Gene identifiers and genome annotation	Which Arabidopsis genes are orthologs of rice GID1, and what are their gene IDs?	no
-NQ-OS-049	Oryza sativa	Molecular phenotypes and genetic regulation	How does OsNiR1 expression compare among rice roots, leaves, and panicles?	no
-NQ-OS-050	Oryza sativa	Molecular phenotypes and genetic regulation	How does SNAC1 expression compare between rice roots and leaves?	no
-NQ-OS-051	Oryza sativa	Molecular phenotypes and genetic regulation	Does OsNRT1.1B expression in roots differ between indica and japonica rice?	no
-NQ-OS-052	Oryza sativa	Molecular phenotypes and genetic regulation	How much does OsSPL14 expression in young panicles vary among rice accessions?	yes
-NQ-OS-053	Oryza sativa	Molecular phenotypes and genetic regulation	How does Wx expression change during rice grain filling?	no
-NQ-OS-054	Oryza sativa	Molecular phenotypes and genetic regulation	How does the expression pattern of OsMADS1 change during rice panicle development?	no
-NQ-OS-055	Oryza sativa	Molecular phenotypes and genetic regulation	How do daily Hd3a expression patterns differ between long and short days in rice?	no
-NQ-OS-056	Oryza sativa	Molecular phenotypes and genetic regulation	How does OsLHY expression vary over a day–night cycle in rice?	no
-NQ-OS-057	Oryza sativa	Molecular phenotypes and genetic regulation	How does salt treatment affect SNAC1 expression in rice?	no
-NQ-OS-058	Oryza sativa	Molecular phenotypes and genetic regulation	How does drought affect OsbZIP23 expression in rice?	no
-NQ-OS-059	Oryza sativa	Molecular phenotypes and genetic regulation	How does OsDREB1A expression respond to cold treatment in rice?	no
-NQ-OS-060	Oryza sativa	Molecular phenotypes and genetic regulation	How does phosphate deficiency affect OsPT2 expression in rice roots?	no
-NQ-OS-061	Oryza sativa	Molecular phenotypes and genetic regulation	How does drought stress affect OsDREB2B splicing in rice?	no
-NQ-OS-062	Oryza sativa	Molecular phenotypes and genetic regulation	What types of alternative splicing are observed for Hd1 in rice?	yes
-NQ-OS-063	Oryza sativa	Molecular phenotypes and genetic regulation	What alternative-splicing patterns are observed for OsPIE1 (LOC_Os01g72480) in rice leaves and panicles?	no
-NQ-OS-064	Oryza sativa	Molecular phenotypes and genetic regulation	Does OsFCA splicing differ among rice accessions?	no
-NQ-OS-065	Oryza sativa	Molecular phenotypes and genetic regulation	Does OsNiR1 poly(A)-site usage differ between rice roots and leaves?	no
-NQ-OS-066	Oryza sativa	Molecular phenotypes and genetic regulation	Which poly(A) sites are used by Hd3a transcripts in rice?	no
-NQ-OS-067	Oryza sativa	Molecular phenotypes and genetic regulation	How does OsPHO2 poly(A)-site usage vary among rice accessions?	no
-NQ-OS-068	Oryza sativa	Molecular phenotypes and genetic regulation	Does OsSPX1 poly(A)-site usage in leaves differ between cultivated rice and Oryza rufipogon?	no
-NQ-OS-069	Oryza sativa	Molecular phenotypes and genetic regulation	What cis-eQTL evidence is available for GS5 expression in rice?	yes
-NQ-OS-070	Oryza sativa	Molecular phenotypes and genetic regulation	What cis- and trans-eQTL evidence is available for Hd1 expression in rice?	no
-NQ-OS-071	Oryza sativa	Molecular phenotypes and genetic regulation	Which genetic variants are associated with OsFCA splicing in rice?	no
-NQ-OS-072	Oryza sativa	Molecular phenotypes and genetic regulation	Which genetic variants are associated with OsbZIP50 poly(A)-site usage in rice?	no
-NQ-OS-073	Oryza sativa	Molecular phenotypes and genetic regulation	Are any genetic variants associated with both Hd3a expression and poly(A)-site usage in rice?	no
-NQ-OS-074	Oryza sativa	Genetic variation and locus analysis	Which natural GS3 sequence variants are associated with differences in rice grain length?	no
-NQ-OS-075	Oryza sativa	Genetic variation and locus analysis	Which natural Rc variants are associated with white pericarp in rice?	no
-NQ-OS-076	Oryza sativa	Genetic variation and locus analysis	Which naturally occurring SNPs in rice OsbZIP23 are predicted to change its amino acid sequence?	no
-NQ-OS-077	Oryza sativa	Genetic variation and locus analysis	Which natural variants in rice Hd1 are annotated as frameshift or stop-gained variants?	no
-NQ-OS-078	Oryza sativa	Genetic variation and locus analysis	Where does rice chr4:30,315,095 A>G (MSU7) fall within COLD1, and what is its annotated effect?	no
-NQ-OS-079	Oryza sativa	Genetic variation and locus analysis	How are grain-width GWAS hits distributed within GW5 and 50 kb on either side in rice?	no
-NQ-OS-080	Oryza sativa	Genetic variation and locus analysis	How are grain-length GWAS hits distributed within GS3 and 50 kb on either side in rice?	no
-NQ-OS-081	Oryza sativa	Genetic variation and locus analysis	Which starch-quality traits have GWAS hits within Wx or 50 kb on either side in rice?	no
-NQ-OS-082	Oryza sativa	Genetic variation and locus analysis	Which plant-height-associated GWAS variants have been reported within SD1 or 50 kb on either side in rice?	no
-NQ-OS-083	Oryza sativa	Genetic variation and locus analysis	Which heading-date GWAS hits have been reported within Ghd7 or 50 kb on either side in rice?	no
-NQ-OS-084	Oryza sativa	Genetic variation and locus analysis	Are cis-eQTL variants associated with rice OsNiR1 expression located within the gene or in its flanking regions?	no
-NQ-OS-085	Oryza sativa	Genetic variation and locus analysis	Where in the genome are the cis- and trans-eQTLs for rice OsRac4 located?	no
-NQ-OS-086	Oryza sativa	Genetic variation and locus analysis	Which splicing events in rice OsPIE1 (LOC_Os01g72480) have cis-sQTL support?	no
-NQ-OS-087	Oryza sativa	Genetic variation and locus analysis	Which OsDREB2B splicing events in rice have sQTL support?	no
-NQ-OS-088	Oryza sativa	Genetic variation and locus analysis	Where are rice OsSPX1 cis-apaQTL variants located within the gene and its flanking regions?	no
-NQ-OS-089	Oryza sativa	Genetic variation and locus analysis	Which APA events in rice OsFCA have apaQTL support?	no
-NQ-OS-090	Oryza sativa	Genetic variation and locus analysis	Which rice SD1 cis-apaQTL variants lie in the 3′ UTR or downstream of the gene?	no
-NQ-OS-091	Oryza sativa	Genetic variation and locus analysis	Do OsPIE1 (LOC_Os01g72480) sQTLs colocalize with plant-height GWAS signals in rice?	no
-NQ-OS-092	Oryza sativa	Genetic variation and locus analysis	Do SD1 apaQTLs colocalize with plant-height GWAS signals in rice?	yes
-NQ-OS-093	Oryza sativa	Genetic variation and locus analysis	Do rice OsFCA sQTLs and apaQTLs each show evidence of colocalization with grain-width GWAS signals?	no
-NQ-OS-094	Oryza sativa	Genetic variation and locus analysis	Do any GS5 eQTL variants occur at the same genomic positions as grain-width GWAS hits in rice?	no
-NQ-OS-095	Oryza sativa	Genetic variation and locus analysis	Do any OsRac4 sQTL variants occur at the same genomic positions as endosperm-type GWAS hits in rice?	no
-NQ-OS-096	Oryza sativa	Genetic variation and locus analysis	Which natural variants in rice OsHKT1;5 are associated with salt tolerance?	no
-NQ-OS-097	Oryza sativa	Genetic variation and locus analysis	Which natural variants in COLD1 are associated with differences in chilling tolerance between indica and japonica rice?	yes
-NQ-OS-098	Oryza sativa	Genetic variation and locus analysis	Which natural variants in sh4 are associated with differences in seed shattering in rice?	no
-NQ-OS-099	Oryza sativa	Candidate-gene selection and prioritization	Which rice grain-width candidate genes would you prioritize based on GWAS and gene-expression evidence?	no
-NQ-OS-100	Oryza sativa	Candidate-gene selection and prioritization	Which rice grain-length candidate genes have the strongest combined GWAS and expression evidence?	no
-NQ-OS-101	Oryza sativa	Candidate-gene selection and prioritization	Which genes would you prioritize for rice grain-weight studies, using GWAS and expression evidence from developing grains?	no
-NQ-OS-102	Oryza sativa	Candidate-gene selection and prioritization	Which rice heading-date candidate genes would you prioritize using genetic and expression associations?	no
-NQ-OS-103	Oryza sativa	Candidate-gene selection and prioritization	Based on splicing–trait associations, which rice genes would you prioritize for investigating plant-height variation?	no
-NQ-OS-104	Oryza sativa	Candidate-gene selection and prioritization	Which rice grain-number-per-panicle candidate genes would you prioritize using GWAS and panicle-expression evidence?	no
-NQ-OS-105	Oryza sativa	Candidate-gene selection and prioritization	Which rice spikelet-length candidate genes would you prioritize based on expression associations and functional evidence?	no
-NQ-OS-106	Oryza sativa	Candidate-gene selection and prioritization	Which rice grain-thickness candidate genes would you prioritize based on associations with poly(A)-site usage?	yes
-NQ-OS-107	Oryza sativa	Candidate-gene selection and prioritization	Which genes would you prioritize for rice root growth angle, using genetic evidence and drought-related functional studies?	no
-NQ-OS-108	Oryza sativa	Candidate-gene selection and prioritization	Which rice sodium-transport genes would you prioritize for salt-tolerance studies, using GWAS and root-expression evidence?	no
-NQ-OS-109	Oryza sativa	Candidate-gene selection and prioritization	Which rice seedling chilling-tolerance candidate genes would you prioritize using GWAS and cold-responsive expression data?	no
-NQ-OS-110	Oryza sativa	Candidate-gene selection and prioritization	Which genes would you prioritize for rice growth under phosphate deficiency, based on genetic and root-expression evidence?	no
-NQ-OS-111	Oryza sativa	Candidate-gene selection and prioritization	For reducing rice grain cadmium, how would you prioritize OsHMA3 and OsNRAMP5, considering their effects on manganese uptake?	no
-NQ-OS-112	Oryza sativa	Candidate-gene selection and prioritization	Which rice amylose-content candidate genes would you prioritize using GWAS and endosperm-expression evidence?	no
-NQ-OS-113	Oryza sativa	Candidate-gene selection and prioritization	Which rice seedling heat-tolerance candidate genes would you prioritize using GWAS and heat-responsive expression data?	no
-NQ-OS-114	Oryza sativa	Candidate-gene selection and prioritization	Which genes in the rice GW5 region, including 50 kb on either side, would you prioritize for grain-width studies?	yes
-NQ-OS-115	Oryza sativa	Candidate-gene selection and prioritization	Which genes in the rice GS3 region, including 50 kb on either side, have the strongest evidence for grain-length variation?	no
-NQ-OS-116	Oryza sativa	Candidate-gene selection and prioritization	Which genes in the rice SD1 region, including 50 kb on either side, would you prioritize for plant-height studies?	no
-NQ-OS-117	Oryza sativa	Candidate-gene selection and prioritization	Which genes in the rice Wx region, including 50 kb on either side, would you prioritize for amylose-content studies?	no
-NQ-OS-118	Oryza sativa	Candidate-gene selection and prioritization	Which rice heading-date candidates would you prioritize based on splicing associations and functional evidence?	no
-NQ-OS-119	Oryza sativa	Candidate-gene selection and prioritization	Which rice grain-width candidates would you prioritize based on associations with poly(A)-site usage?	yes
-NQ-OS-120	Oryza sativa	Candidate-gene selection and prioritization	Which genes would you prioritize for variation in effective panicle number in rice, using expression associations and functional evidence?	no
-NQ-OS-121	Oryza sativa	Candidate-gene selection and prioritization	Which rice candidate genes would you prioritize after comparing associations with panicle number and yield?	no
-NQ-OS-122	Oryza sativa	Candidate-gene selection and prioritization	Which rice salt-tolerance candidate genes are supported across multiple GWAS studies and deserve priority for validation?	no
-NQ-OS-123	Oryza sativa	Candidate-gene selection and prioritization	Which rice grain-weight candidate genes would you prioritize after considering TWAS and colocalization results?	no
-NQ-OS-124	Oryza sativa	Evidence evaluation and hypothesis testing	Does Hd1 have the same effect on rice heading across genetic backgrounds, and what evidence explains any differences?	yes
-NQ-OS-125	Oryza sativa	Evidence evaluation and hypothesis testing	Are the effects of Ghd7 on rice yield consistent across growing environments, and what evidence supports this assessment?	no
-NQ-OS-126	Oryza sativa	Evidence evaluation and hypothesis testing	What evidence distinguishes the effect of GS3 on rice grain length from effects of nearby linked variants?	no
-NQ-OS-127	Oryza sativa	Evidence evaluation and hypothesis testing	How well can grain-width GWAS evidence near GW5 distinguish GW5 from neighbouring candidate genes in rice?	no
-NQ-OS-128	Oryza sativa	Evidence evaluation and hypothesis testing	What evidence supports the hypothesis that altered splicing of rice OsPIE1 (LOC_Os01g72480) affects plant height, and what remains unresolved?	no
-NQ-OS-129	Oryza sativa	Evidence evaluation and hypothesis testing	What experimental evidence connects altered Wx splicing to changes in rice amylose content?	no
-NQ-OS-130	Oryza sativa	Evidence evaluation and hypothesis testing	Can existing evidence distinguish protein-function differences from expression differences in the effect of OsNRT1.1B on rice nitrate use?	no
-NQ-OS-131	Oryza sativa	Evidence evaluation and hypothesis testing	How strongly does experimental evidence support a role for natural variation in OsHKT1;5 in rice salt tolerance?	yes
-NQ-OS-132	Oryza sativa	Evidence evaluation and hypothesis testing	How does manganese supply affect cadmium accumulation and growth in OsNRAMP5-knockout rice?	no
-NQ-OS-133	Oryza sativa	Evidence evaluation and hypothesis testing	How strong is the field evidence that DRO1 improves rice yield under drought?	yes
-NQ-OS-134	Oryza sativa	Evidence evaluation and hypothesis testing	How should the effects of semidwarf SD1 alleles on rice lodging resistance and yield be evaluated?	no
-NQ-OS-135	Oryza sativa	Evidence evaluation and hypothesis testing	If a GS5 eQTL overlaps a rice grain-width GWAS hit, what further evidence is needed to support an expression-mediated effect?	no
-NQ-OS-136	Oryza sativa	Evidence evaluation and hypothesis testing	If both expression and poly(A)-site usage of a rice gene are associated with grain width, how would you test their individual contributions?	no
-NQ-OS-137	Oryza sativa	Evidence evaluation and hypothesis testing	How should a rice grain-weight candidate with a strong TWAS association but weak colocalization evidence be evaluated?	no
-NQ-OS-138	Oryza sativa	Evidence evaluation and hypothesis testing	How should a significant SMR association with rice grain width be interpreted when the HEIDI test indicates heterogeneity?	no
-NQ-OS-139	Oryza sativa	Evidence evaluation and hypothesis testing	How would you determine whether a grain-width-associated expression signal in rice leaves reflects a gene’s role in developing grains?	no
-NQ-OS-140	Oryza sativa	Evidence evaluation and hypothesis testing	If a rice sQTL is significant in indica but not japonica, what evidence is needed to claim a subspecies-specific effect?	no
-NQ-OS-141	Oryza sativa	Evidence evaluation and hypothesis testing	If rice plant-height and yield GWAS signals overlap, how would you distinguish a shared causal variant from separate linked variants?	no
-NQ-OS-142	Oryza sativa	Evidence evaluation and hypothesis testing	When combining rice GWAS records near Wx across studies, what information is needed to establish that they refer to the same variant?	no
-NQ-OS-143	Oryza sativa	Evidence evaluation and hypothesis testing	How should expression–trait associations detected in both leaves and young panicles of the same rice accessions be evaluated, and what independent validation is needed?	no
-NQ-OS-144	Oryza sativa	Evidence evaluation and hypothesis testing	How would you test whether a natural variant affects rice plant height by changing OsPIE1 (LOC_Os01g72480) splicing?	no
-NQ-OS-145	Oryza sativa	Evidence evaluation and hypothesis testing	How would you test whether altered OsFCA poly(A)-site usage affects rice grain width?	no
-NQ-OS-146	Oryza sativa	Evidence evaluation and hypothesis testing	How could an expression change in a rice salt-tolerance candidate be distinguished as a cause of tolerance rather than a consequence of salt damage?	no
-NQ-OS-147	Oryza sativa	Evidence evaluation and hypothesis testing	How would you test the effect of a natural COLD1 variant on chilling tolerance while controlling for indica–japonica genetic-background differences?	no
-NQ-OS-148	Oryza sativa	Evidence evaluation and hypothesis testing	How would you explain an Oryza rufipogon accession that carries a reduced-shattering sh4 allele but still shatters readily?	no
-NQ-OS-149	Oryza sativa	Gene function and mechanism	How does D53 regulate strigolactone signalling and tillering in rice?	no
-NQ-OS-150	Oryza sativa	Gene identifiers and genome annotation	Do D14, D88 and HTD2 refer to the same rice gene, and what are its MSU and RAP IDs?	no
+NQ-AT-001	Arabidopsis thaliana	Gene function	How does WUSCHEL maintain stem cells in the Arabidopsis shoot apical meristem?	yes
+NQ-AT-002	Arabidopsis thaliana	Gene function	What roles do SHORT-ROOT and SCARECROW play in establishing the tissue layers of Arabidopsis roots?	yes
+NQ-AT-003	Arabidopsis thaliana	Gene function	How do ARF7 and ARF19 regulate lateral-root formation in Arabidopsis?	no
+NQ-AT-004	Arabidopsis thaliana	Gene function	What happens to stomatal development when SPEECHLESS is disrupted in Arabidopsis?	no
+NQ-AT-005	Arabidopsis thaliana	Gene function	How does PIN1 influence where new leaves form in Arabidopsis?	no
+NQ-AT-006	Arabidopsis thaliana	Gene function	How does CONSTANS promote flowering under long-day conditions in Arabidopsis?	no
+NQ-AT-007	Arabidopsis thaliana	Gene function	How does prolonged cold affect FLC expression and flowering in Arabidopsis?	no
+NQ-AT-008	Arabidopsis thaliana	Gene function	How do APETALA3 and PISTILLATA determine floral organ identity in Arabidopsis?	no
+NQ-AT-009	Arabidopsis thaliana	Gene function	What role does DOG1 play in Arabidopsis seed dormancy?	no
+NQ-AT-010	Arabidopsis thaliana	Gene function	How does ABI5 mediate the effects of abscisic acid on germination and early seedling growth in Arabidopsis?	no
+NQ-AT-011	Arabidopsis thaliana	Gene function	How does TIR1 perceive auxin and initiate a response in Arabidopsis?	no
+NQ-AT-012	Arabidopsis thaliana	Gene function	How does BRI1 initiate brassinosteroid signalling in Arabidopsis?	no
+NQ-AT-013	Arabidopsis thaliana	Gene function	What is the role of EIN2 in ethylene signalling in Arabidopsis?	no
+NQ-AT-014	Arabidopsis thaliana	Gene function	Why do Arabidopsis cop1 seedlings show light-grown characteristics even in darkness?	no
+NQ-AT-015	Arabidopsis thaliana	Gene function	How does DCL1 contribute to microRNA production in Arabidopsis?	no
+NQ-AT-016	Arabidopsis thaliana	Gene function	How does NRT1.1 contribute to both nitrate uptake and nitrate sensing in Arabidopsis?	no
+NQ-AT-017	Arabidopsis thaliana	Gene function	How does PHR1 regulate the response to phosphate deficiency in Arabidopsis?	no
+NQ-AT-018	Arabidopsis thaliana	Gene function	Why is FRO2 important for iron uptake by Arabidopsis roots?	no
+NQ-AT-019	Arabidopsis thaliana	Gene function	How does loss of ADG1 affect starch synthesis in Arabidopsis?	no
+NQ-AT-020	Arabidopsis thaliana	Gene function	How does ATG5 contribute to nutrient recycling during nitrogen starvation in Arabidopsis?	no
+NQ-AT-021	Arabidopsis thaliana	Gene function	How does SLAC1 contribute to abscisic acid–induced stomatal closure in Arabidopsis?	yes
+NQ-AT-022	Arabidopsis thaliana	Gene function	How does SOS1 help Arabidopsis maintain sodium balance under salt stress?	no
+NQ-AT-023	Arabidopsis thaliana	Gene function	How does HSP101 help Arabidopsis recover from heat stress?	no
+NQ-AT-024	Arabidopsis thaliana	Gene function	How does FLS2 recognize bacterial flagellin and activate immune signalling in Arabidopsis?	no
+NQ-AT-025	Arabidopsis thaliana	Gene function	What role does NPR1 play in salicylic acid–induced defence in Arabidopsis?	no
+NQ-AT-026	Arabidopsis thaliana	Gene annotation	What is the gene ID for Arabidopsis HKT1?	no
+NQ-AT-027	Arabidopsis thaliana	Gene annotation	What is the gene ID for Arabidopsis FCA?	yes
+NQ-AT-028	Arabidopsis thaliana	Gene annotation	Which Arabidopsis gene is AT2G18790, and what protein does it encode?	no
+NQ-AT-029	Arabidopsis thaliana	Gene annotation	Which Arabidopsis gene is AT3G18780, and what protein does it encode?	no
+NQ-AT-030	Arabidopsis thaliana	Gene annotation	Do NRT1.1 and NPF6.3 refer to the same Arabidopsis gene? What is its gene ID?	no
+NQ-AT-031	Arabidopsis thaliana	Gene annotation	Do DREB1A and CBF3 refer to the same Arabidopsis gene? What is its gene ID?	no
+NQ-AT-032	Arabidopsis thaliana	Gene annotation	Are SOC1 and AGL20 names for the same Arabidopsis gene? What is its gene ID?	no
+NQ-AT-033	Arabidopsis thaliana	Gene annotation	What are the gene IDs for Arabidopsis PIF4 and PIF5?	no
+NQ-AT-034	Arabidopsis thaliana	Gene annotation	Are Arabidopsis FLC and FLM distinct genes? What are their gene IDs?	no
+NQ-AT-035	Arabidopsis thaliana	Gene annotation	What type of gene is Arabidopsis AT2G25095, and what is its annotated product?	no
+NQ-AT-036	Arabidopsis thaliana	Gene annotation	Which Arabidopsis gene does transcript AT1G01010.1 belong to, and what protein does it encode?	no
+NQ-AT-037	Arabidopsis thaliana	Gene annotation	How do the coding sequences of Arabidopsis transcripts AT1G03160.1 and AT1G03160.2 differ?	no
+NQ-AT-038	Arabidopsis thaliana	Gene annotation	On which chromosome and strand is Arabidopsis FT located?	no
+NQ-AT-039	Arabidopsis thaliana	Gene annotation	What are the genomic coordinates of Arabidopsis FPA in the TAIR10 reference genome?	no
+NQ-AT-040	Arabidopsis thaliana	Gene annotation	What other names are used for Arabidopsis NPR1, and what is its gene ID?	no
+NQ-AT-041	Arabidopsis thaliana	Gene annotation	How many exons and introns does Arabidopsis GL1 have?	no
+NQ-AT-042	Arabidopsis thaliana	Gene annotation	What conserved domains are present in the Arabidopsis ABI5 protein?	no
+NQ-AT-043	Arabidopsis thaliana	Gene annotation	How do the annotated transcripts of Arabidopsis SVP differ in exon structure?	yes
+NQ-AT-044	Arabidopsis thaliana	Gene annotation	Which transcript isoforms are annotated for Arabidopsis DOG1?	no
+NQ-AT-045	Arabidopsis thaliana	Gene annotation	What are the CDS length and predicted protein length of Arabidopsis CO transcript AT5G15840.1?	no
+NQ-AT-046	Arabidopsis thaliana	Gene annotation	How do the annotated transcripts of Arabidopsis FCA differ in their coding regions and 3′ UTRs?	yes
+NQ-AT-047	Arabidopsis thaliana	Gene annotation	Which protein-coding genes are closest to Arabidopsis FLC on either side?	no
+NQ-AT-048	Arabidopsis thaliana	Gene annotation	How are Arabidopsis CBF1, CBF2 and CBF3 arranged on chromosome 4?	no
+NQ-AT-049	Arabidopsis thaliana	Gene annotation	Which Arabidopsis genes encode Rubisco small subunits, and on which chromosomes are they located?	no
+NQ-AT-050	Arabidopsis thaliana	Molecular regulation	How does NRT1.1 expression differ across Arabidopsis tissues?	no
+NQ-AT-051	Arabidopsis thaliana	Molecular regulation	How does HKT1 expression compare between Arabidopsis roots and leaves?	no
+NQ-AT-052	Arabidopsis thaliana	Molecular regulation	How much does FLC expression vary among Arabidopsis accessions?	no
+NQ-AT-053	Arabidopsis thaliana	Molecular regulation	Which cells express WUS in the Arabidopsis shoot apical meristem?	no
+NQ-AT-054	Arabidopsis thaliana	Molecular regulation	How does AP1 expression change during the transition to flowering in Arabidopsis?	no
+NQ-AT-055	Arabidopsis thaliana	Molecular regulation	How does DOG1 expression change during seed maturation and after imbibition in Arabidopsis?	yes
+NQ-AT-056	Arabidopsis thaliana	Molecular regulation	How do daily FT expression patterns differ between long and short days in Arabidopsis?	no
+NQ-AT-057	Arabidopsis thaliana	Molecular regulation	How do the daily expression peaks of CCA1 and TOC1 differ in Arabidopsis?	no
+NQ-AT-058	Arabidopsis thaliana	Molecular regulation	How does dehydration affect RD29A expression in Arabidopsis?	no
+NQ-AT-059	Arabidopsis thaliana	Molecular regulation	How does HSP101 expression change during heat treatment and recovery in Arabidopsis?	no
+NQ-AT-060	Arabidopsis thaliana	Molecular regulation	After nitrogen starvation, how does nitrate resupply affect NRT2.1 expression in Arabidopsis roots?	no
+NQ-AT-061	Arabidopsis thaliana	Molecular regulation	How does phosphate deficiency affect PHT1;4 expression in Arabidopsis roots?	no
+NQ-AT-062	Arabidopsis thaliana	Molecular regulation	How does temperature affect FLM alternative splicing in Arabidopsis?	yes
+NQ-AT-063	Arabidopsis thaliana	Molecular regulation	Does splice-site usage in SR45 differ among Arabidopsis accessions?	no
+NQ-AT-064	Arabidopsis thaliana	Molecular regulation	How much does intron retention in DCL1 vary among Arabidopsis accessions?	no
+NQ-AT-065	Arabidopsis thaliana	Molecular regulation	What alternative-splicing events are observed for RCA in Arabidopsis?	no
+NQ-AT-066	Arabidopsis thaliana	Molecular regulation	Which poly(A) sites are used by FCA transcripts in Arabidopsis?	no
+NQ-AT-067	Arabidopsis thaliana	Molecular regulation	Does the relative use of FPA poly(A) sites vary among Arabidopsis accessions?	no
+NQ-AT-068	Arabidopsis thaliana	Molecular regulation	Does alternative polyadenylation of Arabidopsis CPSF30 alter only the 3′ UTR, or also the coding sequence?	no
+NQ-AT-069	Arabidopsis thaliana	Molecular regulation	How does the relative use of proximal and distal poly(A) sites in FY vary among Arabidopsis accessions?	no
+NQ-AT-070	Arabidopsis thaliana	Molecular regulation	Which natural genetic variants are associated with FLC expression in Arabidopsis?	no
+NQ-AT-071	Arabidopsis thaliana	Molecular regulation	What cis- and trans-eQTL evidence is available for FPA expression in Arabidopsis?	no
+NQ-AT-072	Arabidopsis thaliana	Molecular regulation	Which genetic variants are associated with FLM splicing in Arabidopsis?	no
+NQ-AT-073	Arabidopsis thaliana	Molecular regulation	Which genetic variants are associated with FY poly(A)-site usage in Arabidopsis?	no
+NQ-AT-074	Arabidopsis thaliana	Molecular regulation	Are any genetic variants associated with both expression and poly(A)-site usage of Arabidopsis PHR1 (AT4G28610)?	no
+NQ-AT-075	Arabidopsis thaliana	Variant analysis	Which natural FRI variants have been linked to early flowering in Arabidopsis?	no
+NQ-AT-076	Arabidopsis thaliana	Variant analysis	Which natural ACD6 variants have been linked to differences in Arabidopsis growth and defence?	no
+NQ-AT-077	Arabidopsis thaliana	Variant analysis	Which naturally occurring SNPs in Arabidopsis PIF4 are predicted to change its amino acid sequence?	yes
+NQ-AT-078	Arabidopsis thaliana	Variant analysis	Which natural variants in Arabidopsis DCL1 are annotated as splice-site or splice-region variants?	yes
+NQ-AT-079	Arabidopsis thaliana	Variant analysis	What amino acid change is predicted for Arabidopsis chr5:14,008,184 A>G (TAIR10)?	no
+NQ-AT-080	Arabidopsis thaliana	Variant analysis	How are aluminum-tolerance GWAS hits distributed within ALMT1 and 50 kb on either side in Arabidopsis?	no
+NQ-AT-081	Arabidopsis thaliana	Variant analysis	Which traits have GWAS hits within HAK5 or 50 kb on either side in Arabidopsis?	no
+NQ-AT-082	Arabidopsis thaliana	Variant analysis	Which glucosinolate traits have GWAS hits within MAM1 or 50 kb on either side in Arabidopsis?	no
+NQ-AT-083	Arabidopsis thaliana	Variant analysis	Which GWAS variants within HMA3 or 50 kb on either side are associated with leaf cadmium concentration in Arabidopsis?	no
+NQ-AT-084	Arabidopsis thaliana	Variant analysis	Is there GWAS evidence for shade responses within PHYC or 50 kb on either side in Arabidopsis?	yes
+NQ-AT-085	Arabidopsis thaliana	Variant analysis	Where are Arabidopsis DOG1 cis-eQTL signals located relative to the gene?	no
+NQ-AT-086	Arabidopsis thaliana	Variant analysis	Where are eQTLs associated with FT expression located in the Arabidopsis genome?	no
+NQ-AT-087	Arabidopsis thaliana	Variant analysis	Which cis-eQTL variants associated with Arabidopsis DCL1 expression lie within the gene?	no
+NQ-AT-088	Arabidopsis thaliana	Variant analysis	Which alternative-splicing events in Arabidopsis SR30 have sQTL associations?	no
+NQ-AT-089	Arabidopsis thaliana	Variant analysis	Which splicing events in Arabidopsis SCL33 have sQTL support?	no
+NQ-AT-090	Arabidopsis thaliana	Variant analysis	Which sQTL variants associated with Arabidopsis FLM splicing lie in introns or near splice sites?	no
+NQ-AT-091	Arabidopsis thaliana	Variant analysis	Which variants are associated with poly(A)-site usage in Arabidopsis SR45?	no
+NQ-AT-092	Arabidopsis thaliana	Variant analysis	Where are apaQTL variants associated with Arabidopsis MAM1 poly(A)-site usage located relative to the gene?	no
+NQ-AT-093	Arabidopsis thaliana	Variant analysis	Do FLC eQTLs colocalize with flowering-time GWAS signals in Arabidopsis?	no
+NQ-AT-094	Arabidopsis thaliana	Variant analysis	Do FLM sQTLs colocalize with flowering-time GWAS signals in Arabidopsis?	no
+NQ-AT-095	Arabidopsis thaliana	Variant analysis	Do FY apaQTLs colocalize with flowering-time GWAS signals in Arabidopsis?	no
+NQ-AT-096	Arabidopsis thaliana	Variant analysis	Does colocalization support a shared genetic signal for MOT1 expression and molybdenum accumulation in Arabidopsis?	no
+NQ-AT-097	Arabidopsis thaliana	Variant analysis	Do any AOP2 apaQTL variants occur at the same genomic positions as glucosinolate-associated GWAS hits in Arabidopsis?	no
+NQ-AT-098	Arabidopsis thaliana	Variant analysis	Which natural variants in Arabidopsis HKT1 are associated with differences in leaf sodium concentration?	no
+NQ-AT-099	Arabidopsis thaliana	Variant analysis	What sequence differences distinguish the CRY2 alleles of Arabidopsis accessions Cvi and Ler?	no
+NQ-AT-100	Arabidopsis thaliana	Candidate gene prioritization	Which Arabidopsis flowering-time candidate genes would you prioritize based on GWAS and gene-expression evidence?	no
+NQ-AT-101	Arabidopsis thaliana	Candidate gene prioritization	Which genes would you prioritize for studying natural variation in Arabidopsis seed dormancy, based on genetic and functional evidence?	no
+NQ-AT-102	Arabidopsis thaliana	Candidate gene prioritization	Which Arabidopsis leaf-sodium candidate genes have the strongest support from GWAS and expression data?	no
+NQ-AT-103	Arabidopsis thaliana	Candidate gene prioritization	Which genes would you prioritize for studying variation in Arabidopsis leaf cadmium concentration, based on genetic and functional evidence?	no
+NQ-AT-104	Arabidopsis thaliana	Candidate gene prioritization	Which Arabidopsis molybdenum-accumulation candidate genes would you prioritize after comparing eQTL and GWAS evidence?	no
+NQ-AT-105	Arabidopsis thaliana	Candidate gene prioritization	Which genes would you prioritize for studying variation in Arabidopsis glucosinolate content, using genetic and expression evidence?	no
+NQ-AT-106	Arabidopsis thaliana	Candidate gene prioritization	Which genes would you prioritize for salt-induced changes in Arabidopsis lateral-root growth, based on GWAS and root-expression evidence?	no
+NQ-AT-107	Arabidopsis thaliana	Candidate gene prioritization	Which genes are the strongest candidates for Arabidopsis root-growth responses to phosphate deficiency, based on GWAS and functional studies?	no
+NQ-AT-108	Arabidopsis thaliana	Candidate gene prioritization	Which Arabidopsis stomatal-size candidate genes would you prioritize using GWAS and leaf-expression evidence?	no
+NQ-AT-109	Arabidopsis thaliana	Candidate gene prioritization	Which genes would you prioritize for Arabidopsis seed-longevity studies, based on GWAS and experimental evidence?	no
+NQ-AT-110	Arabidopsis thaliana	Candidate gene prioritization	Which genes in the Arabidopsis ALMT1 region, including 50 kb on either side, would you prioritize for aluminum-tolerance studies?	no
+NQ-AT-111	Arabidopsis thaliana	Candidate gene prioritization	Which genes in the Arabidopsis MAM1 region, including 50 kb on either side, would you prioritize for glucosinolate studies?	no
+NQ-AT-112	Arabidopsis thaliana	Candidate gene prioritization	Which genes in the Arabidopsis HKT1 region, including 50 kb on either side, have the strongest evidence for leaf-sodium variation?	yes
+NQ-AT-113	Arabidopsis thaliana	Candidate gene prioritization	Which genes in the Arabidopsis FLC region, including 50 kb on either side, would you prioritize for flowering-time studies?	no
+NQ-AT-114	Arabidopsis thaliana	Candidate gene prioritization	Based on splicing–trait associations, which Arabidopsis genes would you prioritize for investigating flowering-time variation?	no
+NQ-AT-115	Arabidopsis thaliana	Candidate gene prioritization	Which Arabidopsis flowering-time candidates would you prioritize based on associations with poly(A)-site usage?	no
+NQ-AT-116	Arabidopsis thaliana	Candidate gene prioritization	Which Arabidopsis growth-rate candidate genes would you prioritize by comparing expression and splicing associations?	no
+NQ-AT-117	Arabidopsis thaliana	Candidate gene prioritization	Which genes would you prioritize for Arabidopsis raffinose-accumulation studies, using expression associations and functional evidence?	no
+NQ-AT-118	Arabidopsis thaliana	Candidate gene prioritization	Which Arabidopsis genes with poly(A)-site usage associated with leaf cadmium concentration would you prioritize for validation?	no
+NQ-AT-119	Arabidopsis thaliana	Candidate gene prioritization	Which Arabidopsis trichome-density candidate genes have the strongest combined genetic and expression evidence?	no
+NQ-AT-120	Arabidopsis thaliana	Candidate gene prioritization	Which Arabidopsis flowering-time candidate genes are supported across multiple GWAS studies and deserve priority for validation?	yes
+NQ-AT-121	Arabidopsis thaliana	Candidate gene prioritization	Which genes would you prioritize for Arabidopsis root growth under zinc deficiency, using genetic and expression evidence?	no
+NQ-AT-122	Arabidopsis thaliana	Candidate gene prioritization	Which genes would you prioritize for Arabidopsis primary-root responses to ABA, based on genetic associations and functional evidence?	no
+NQ-AT-123	Arabidopsis thaliana	Candidate gene prioritization	Which candidate regulators of Arabidopsis FLM splicing would you prioritize based on trans-sQTL signals and gene annotations?	no
+NQ-AT-124	Arabidopsis thaliana	Candidate gene prioritization	Which would you prioritize as a target for improving water-use efficiency in Arabidopsis, EPF1 or EPF2, and why?	no
+NQ-AT-125	Arabidopsis thaliana	Hypothesis evaluation	What genetic and molecular evidence supports FLC as a mediator of the effect of FRI on Arabidopsis flowering?	no
+NQ-AT-126	Arabidopsis thaliana	Hypothesis evaluation	How well do DOG1 transcript and protein levels explain differences in Arabidopsis seed dormancy?	no
+NQ-AT-127	Arabidopsis thaliana	Hypothesis evaluation	What experimental evidence supports a role for FLM splicing in mediating the effect of temperature on Arabidopsis flowering?	no
+NQ-AT-128	Arabidopsis thaliana	Hypothesis evaluation	How do HKT1-associated differences in leaf sodium relate to salt tolerance in Arabidopsis?	no
+NQ-AT-129	Arabidopsis thaliana	Hypothesis evaluation	Do defence-enhancing ACD6 alleles impose the same growth penalty across Arabidopsis genetic backgrounds?	no
+NQ-AT-130	Arabidopsis thaliana	Hypothesis evaluation	How strong is the evidence that natural variation in MOT1 contributes to differences in Arabidopsis molybdenum accumulation?	no
+NQ-AT-131	Arabidopsis thaliana	Hypothesis evaluation	What evidence shows that poly(A)-site choice affects the production of functional FCA protein in Arabidopsis?	no
+NQ-AT-132	Arabidopsis thaliana	Hypothesis evaluation	What do complementation experiments reveal about the roles of the short and long CPSF30 protein isoforms in Arabidopsis nitrate responses?	yes
+NQ-AT-133	Arabidopsis thaliana	Hypothesis evaluation	What experimental evidence distinguishes the roles of SR45 splice isoforms in Arabidopsis root and petal development?	no
+NQ-AT-134	Arabidopsis thaliana	Hypothesis evaluation	What genetic evidence supports overlapping functions of PHT1;1 and PHT1;4 in Arabidopsis phosphate uptake?	no
+NQ-AT-135	Arabidopsis thaliana	Hypothesis evaluation	What support do genetic associations and functional experiments each provide for the hypothesis that FLC expression affects Arabidopsis flowering time?	yes
+NQ-AT-136	Arabidopsis thaliana	Hypothesis evaluation	How would you test whether altered MAM1 poly(A)-site usage affects Arabidopsis glucosinolate content?	no
+NQ-AT-137	Arabidopsis thaliana	Hypothesis evaluation	If an Arabidopsis DCL1 variant has both a splice-region annotation and sQTL support, what further evidence would establish its effect on splicing?	no
+NQ-AT-138	Arabidopsis thaliana	Hypothesis evaluation	How would you distinguish direct effects of FPA on poly(A)-site choice from indirect changes in an Arabidopsis fpa mutant?	no
+NQ-AT-139	Arabidopsis thaliana	Hypothesis evaluation	If an aluminum-tolerance GWAS signal near ALMT1 is not replicated in another Arabidopsis population, how should its reliability be assessed?	no
+NQ-AT-140	Arabidopsis thaliana	Hypothesis evaluation	What experimental evidence distinguishes the contributions of root and shoot HKT1 to sodium distribution in Arabidopsis?	no
+NQ-AT-141	Arabidopsis thaliana	Hypothesis evaluation	How does the evidence for HMA3 expression differences compare with that for protein-function differences in explaining Arabidopsis leaf cadmium variation?	no
+NQ-AT-142	Arabidopsis thaliana	Hypothesis evaluation	How could a glucosinolate association near Arabidopsis MAM1 be distinguished as an effect of one gene versus several linked genes?	no
+NQ-AT-143	Arabidopsis thaliana	Hypothesis evaluation	What experimental evidence links natural variation in HAC1 to differences in Arabidopsis arsenic accumulation?	no
+NQ-AT-144	Arabidopsis thaliana	Hypothesis evaluation	How should candidates at an Arabidopsis flowering-time GWAS locus be evaluated when gene proximity and eQTL or functional evidence point to different genes?	no
+NQ-AT-145	Arabidopsis thaliana	Hypothesis evaluation	How would you test whether a natural MOT1 promoter variant affects Arabidopsis molybdenum accumulation through altered expression?	no
+NQ-AT-146	Arabidopsis thaliana	Hypothesis evaluation	How could the effect of a putative FLM splicing variant be separated from effects of nearby linked variants in Arabidopsis?	no
+NQ-AT-147	Arabidopsis thaliana	Hypothesis evaluation	What controls are needed to test whether altered FCA poly(A)-site usage affects Arabidopsis flowering?	no
+NQ-AT-148	Arabidopsis thaliana	Hypothesis evaluation	What functional evidence is needed to assess whether RD29A can improve Arabidopsis drought tolerance?	no
+NQ-AT-149	Arabidopsis thaliana	Hypothesis evaluation	Beyond stomatal density, which traits should be measured when evaluating EPF2 as a target for improving Arabidopsis water-use efficiency?	no
+NQ-AT-150	Arabidopsis thaliana	Gene annotation	Is Arabidopsis rbcL encoded in the nuclear or chloroplast genome, and what is its gene ID?	no
+NQ-OS-001	Oryza sativa	Gene function	Why do rice moc1 mutants produce few or no tillers?	no
+NQ-OS-002	Oryza sativa	Gene function	How does IPA1 (OsSPL14) regulate tiller number and panicle branching in rice?	no
+NQ-OS-003	Oryza sativa	Gene function	What role does LAZY1 play in controlling rice tiller angle?	no
+NQ-OS-004	Oryza sativa	Gene function	How does DRO1 influence root growth angle and drought avoidance in rice?	no
+NQ-OS-005	Oryza sativa	Gene function	How does Hd1 regulate rice heading under short-day and long-day conditions?	no
+NQ-OS-006	Oryza sativa	Gene function	How does Ehd1 regulate florigen expression and heading in rice?	no
+NQ-OS-007	Oryza sativa	Gene function	How does Ghd7 influence heading date and grain number in rice?	no
+NQ-OS-008	Oryza sativa	Gene function	What defects in anther development result from loss of TDR in rice?	no
+NQ-OS-009	Oryza sativa	Gene function	How does the S5 locus affect fertility in indica–japonica rice hybrids?	no
+NQ-OS-010	Oryza sativa	Gene function	How does Gn1a regulate grain number per panicle in rice?	no
+NQ-OS-011	Oryza sativa	Gene function	How does GS3 regulate grain length in rice?	yes
+NQ-OS-012	Oryza sativa	Gene function	Why can loss of GW2 increase grain width in rice?	no
+NQ-OS-013	Oryza sativa	Gene function	What role does Waxy (Wx) play in amylose synthesis in rice endosperm?	no
+NQ-OS-014	Oryza sativa	Gene function	How does ALK (SSIIa) influence the gelatinization temperature of rice starch?	no
+NQ-OS-015	Oryza sativa	Gene function	Why does loss of GIF1 impair grain filling in rice?	no
+NQ-OS-016	Oryza sativa	Gene function	Why do loss-of-function mutations in SD1 reduce rice plant height?	no
+NQ-OS-017	Oryza sativa	Gene function	How does GID1 perceive gibberellin and activate growth responses in rice?	no
+NQ-OS-018	Oryza sativa	Gene function	How does OsNRT1.1B contribute to differences in nitrate use between indica and japonica rice?	no
+NQ-OS-019	Oryza sativa	Gene function	How does PSTOL1 help rice grow in phosphorus-deficient soils?	no
+NQ-OS-020	Oryza sativa	Gene function	How does OsHKT1;5 regulate sodium accumulation in rice shoots?	yes
+NQ-OS-021	Oryza sativa	Gene function	How do SUB1A and SNORKEL1/2 differ in the way they help rice cope with flooding?	no
+NQ-OS-022	Oryza sativa	Gene function	What role does COLD1 play in chilling perception and tolerance in rice?	no
+NQ-OS-023	Oryza sativa	Gene function	How does OsbZIP23 connect abscisic acid signalling with drought tolerance in rice?	no
+NQ-OS-024	Oryza sativa	Gene function	How do CEBiP and OsCERK1 work together to trigger chitin-induced immune responses in rice?	no
+NQ-OS-025	Oryza sativa	Gene annotation	What are the MSU and RAP gene IDs for rice OsNiR1?	no
+NQ-OS-026	Oryza sativa	Gene annotation	Which rice gene is LOC_Os03g60080, and what protein does it encode?	no
+NQ-OS-027	Oryza sativa	Gene annotation	Which MSU gene ID corresponds to the rice RAP identifier Os01g0307500?	no
+NQ-OS-028	Oryza sativa	Gene annotation	Which RAP gene ID corresponds to LOC_Os05g08810 in rice?	no
+NQ-OS-029	Oryza sativa	Gene annotation	Do IPA1 and WFP refer to the same rice gene? What are its MSU and RAP IDs?	yes
+NQ-OS-030	Oryza sativa	Gene annotation	Are DTH8 and Ghd8 names for the same rice gene? What is its gene ID?	no
+NQ-OS-031	Oryza sativa	Gene annotation	Do Gn1a and OsCKX2 refer to the same rice gene? What is its gene ID?	no
+NQ-OS-032	Oryza sativa	Gene annotation	Are GS5 and GW5 different rice genes? What are their gene IDs?	no
+NQ-OS-033	Oryza sativa	Gene annotation	What are the MSU and RAP gene IDs for rice Hd1 and Hd3a?	no
+NQ-OS-034	Oryza sativa	Gene annotation	Which rice gene does transcript LOC_Os01g01010.1 belong to, and what protein does it encode?	no
+NQ-OS-035	Oryza sativa	Gene annotation	How do rice transcripts LOC_Os01g68870.1 and LOC_Os01g68870.2 differ in exon structure?	no
+NQ-OS-036	Oryza sativa	Gene annotation	On which chromosome and strand is OsNRT1.1B located in the Nipponbare reference genome?	no
+NQ-OS-037	Oryza sativa	Gene annotation	What are the genomic coordinates of rice DRO1 in the Nipponbare IRGSP-1.0 reference genome?	yes
+NQ-OS-038	Oryza sativa	Gene annotation	What type of transcription factor does rice OsSPL14 encode, and what is its characteristic domain?	no
+NQ-OS-039	Oryza sativa	Gene annotation	How many exons and introns does rice SD1 have?	no
+NQ-OS-040	Oryza sativa	Gene annotation	What are the gene IDs and chromosomal locations of rice OsHKT1;4 and OsHKT1;5?	no
+NQ-OS-041	Oryza sativa	Gene annotation	How do rice TAC1 transcripts LOC_Os09g35980.1 and LOC_Os09g35980.2 differ in exon structure?	no
+NQ-OS-042	Oryza sativa	Gene annotation	Which transcript isoforms are annotated for rice GS5?	no
+NQ-OS-043	Oryza sativa	Gene annotation	What is the predicted protein length of rice Hd1 transcript LOC_Os06g16370.1?	no
+NQ-OS-044	Oryza sativa	Gene annotation	How do the annotated transcripts of rice OsNiR1 differ in their coding regions?	no
+NQ-OS-045	Oryza sativa	Gene annotation	Which genes immediately flank GW2 in the rice Nipponbare reference genome?	no
+NQ-OS-046	Oryza sativa	Gene annotation	What conserved domains are present in the rice OsCERK1 protein?	no
+NQ-OS-047	Oryza sativa	Gene annotation	Is SUB1A present in the Nipponbare reference genome?	no
+NQ-OS-048	Oryza sativa	Gene annotation	Which Arabidopsis genes are orthologs of rice GID1, and what are their gene IDs?	no
+NQ-OS-049	Oryza sativa	Molecular regulation	How does OsNiR1 expression compare among rice roots, leaves, and panicles?	no
+NQ-OS-050	Oryza sativa	Molecular regulation	How does SNAC1 expression compare between rice roots and leaves?	no
+NQ-OS-051	Oryza sativa	Molecular regulation	Does OsNRT1.1B expression in roots differ between indica and japonica rice?	no
+NQ-OS-052	Oryza sativa	Molecular regulation	How much does OsSPL14 expression in young panicles vary among rice accessions?	yes
+NQ-OS-053	Oryza sativa	Molecular regulation	How does Wx expression change during rice grain filling?	no
+NQ-OS-054	Oryza sativa	Molecular regulation	How does the expression pattern of OsMADS1 change during rice panicle development?	no
+NQ-OS-055	Oryza sativa	Molecular regulation	How do daily Hd3a expression patterns differ between long and short days in rice?	no
+NQ-OS-056	Oryza sativa	Molecular regulation	How does OsLHY expression vary over a day–night cycle in rice?	no
+NQ-OS-057	Oryza sativa	Molecular regulation	How does salt treatment affect SNAC1 expression in rice?	no
+NQ-OS-058	Oryza sativa	Molecular regulation	How does drought affect OsbZIP23 expression in rice?	no
+NQ-OS-059	Oryza sativa	Molecular regulation	How does OsDREB1A expression respond to cold treatment in rice?	no
+NQ-OS-060	Oryza sativa	Molecular regulation	How does phosphate deficiency affect OsPT2 expression in rice roots?	no
+NQ-OS-061	Oryza sativa	Molecular regulation	How does drought stress affect OsDREB2B splicing in rice?	no
+NQ-OS-062	Oryza sativa	Molecular regulation	What types of alternative splicing are observed for Hd1 in rice?	yes
+NQ-OS-063	Oryza sativa	Molecular regulation	What alternative-splicing patterns are observed for OsPIE1 (LOC_Os01g72480) in rice leaves and panicles?	no
+NQ-OS-064	Oryza sativa	Molecular regulation	Does OsFCA splicing differ among rice accessions?	no
+NQ-OS-065	Oryza sativa	Molecular regulation	Does OsNiR1 poly(A)-site usage differ between rice roots and leaves?	no
+NQ-OS-066	Oryza sativa	Molecular regulation	Which poly(A) sites are used by Hd3a transcripts in rice?	no
+NQ-OS-067	Oryza sativa	Molecular regulation	How does OsPHO2 poly(A)-site usage vary among rice accessions?	no
+NQ-OS-068	Oryza sativa	Molecular regulation	Does OsSPX1 poly(A)-site usage in leaves differ between cultivated rice and Oryza rufipogon?	no
+NQ-OS-069	Oryza sativa	Molecular regulation	What cis-eQTL evidence is available for GS5 expression in rice?	yes
+NQ-OS-070	Oryza sativa	Molecular regulation	What cis- and trans-eQTL evidence is available for Hd1 expression in rice?	no
+NQ-OS-071	Oryza sativa	Molecular regulation	Which genetic variants are associated with OsFCA splicing in rice?	no
+NQ-OS-072	Oryza sativa	Molecular regulation	Which genetic variants are associated with OsbZIP50 poly(A)-site usage in rice?	no
+NQ-OS-073	Oryza sativa	Molecular regulation	Are any genetic variants associated with both Hd3a expression and poly(A)-site usage in rice?	no
+NQ-OS-074	Oryza sativa	Variant analysis	Which natural GS3 sequence variants are associated with differences in rice grain length?	no
+NQ-OS-075	Oryza sativa	Variant analysis	Which natural Rc variants are associated with white pericarp in rice?	no
+NQ-OS-076	Oryza sativa	Variant analysis	Which naturally occurring SNPs in rice OsbZIP23 are predicted to change its amino acid sequence?	no
+NQ-OS-077	Oryza sativa	Variant analysis	Which natural variants in rice Hd1 are annotated as frameshift or stop-gained variants?	no
+NQ-OS-078	Oryza sativa	Variant analysis	Where does rice chr4:30,315,095 A>G (MSU7) fall within COLD1, and what is its annotated effect?	no
+NQ-OS-079	Oryza sativa	Variant analysis	How are grain-width GWAS hits distributed within GW5 and 50 kb on either side in rice?	no
+NQ-OS-080	Oryza sativa	Variant analysis	How are grain-length GWAS hits distributed within GS3 and 50 kb on either side in rice?	no
+NQ-OS-081	Oryza sativa	Variant analysis	Which starch-quality traits have GWAS hits within Wx or 50 kb on either side in rice?	no
+NQ-OS-082	Oryza sativa	Variant analysis	Which plant-height-associated GWAS variants have been reported within SD1 or 50 kb on either side in rice?	no
+NQ-OS-083	Oryza sativa	Variant analysis	Which heading-date GWAS hits have been reported within Ghd7 or 50 kb on either side in rice?	no
+NQ-OS-084	Oryza sativa	Variant analysis	Are cis-eQTL variants associated with rice OsNiR1 expression located within the gene or in its flanking regions?	no
+NQ-OS-085	Oryza sativa	Variant analysis	Where in the genome are the cis- and trans-eQTLs for rice OsRac4 located?	no
+NQ-OS-086	Oryza sativa	Variant analysis	Which splicing events in rice OsPIE1 (LOC_Os01g72480) have cis-sQTL support?	no
+NQ-OS-087	Oryza sativa	Variant analysis	Which OsDREB2B splicing events in rice have sQTL support?	no
+NQ-OS-088	Oryza sativa	Variant analysis	Where are rice OsSPX1 cis-apaQTL variants located within the gene and its flanking regions?	no
+NQ-OS-089	Oryza sativa	Variant analysis	Which APA events in rice OsFCA have apaQTL support?	no
+NQ-OS-090	Oryza sativa	Variant analysis	Which rice SD1 cis-apaQTL variants lie in the 3′ UTR or downstream of the gene?	no
+NQ-OS-091	Oryza sativa	Variant analysis	Do OsPIE1 (LOC_Os01g72480) sQTLs colocalize with plant-height GWAS signals in rice?	no
+NQ-OS-092	Oryza sativa	Variant analysis	Do SD1 apaQTLs colocalize with plant-height GWAS signals in rice?	yes
+NQ-OS-093	Oryza sativa	Variant analysis	Do rice OsFCA sQTLs and apaQTLs each show evidence of colocalization with grain-width GWAS signals?	no
+NQ-OS-094	Oryza sativa	Variant analysis	Do any GS5 eQTL variants occur at the same genomic positions as grain-width GWAS hits in rice?	no
+NQ-OS-095	Oryza sativa	Variant analysis	Do any OsRac4 sQTL variants occur at the same genomic positions as endosperm-type GWAS hits in rice?	no
+NQ-OS-096	Oryza sativa	Variant analysis	Which natural variants in rice OsHKT1;5 are associated with salt tolerance?	no
+NQ-OS-097	Oryza sativa	Variant analysis	Which natural variants in COLD1 are associated with differences in chilling tolerance between indica and japonica rice?	yes
+NQ-OS-098	Oryza sativa	Variant analysis	Which natural variants in sh4 are associated with differences in seed shattering in rice?	no
+NQ-OS-099	Oryza sativa	Candidate gene prioritization	Which rice grain-width candidate genes would you prioritize based on GWAS and gene-expression evidence?	no
+NQ-OS-100	Oryza sativa	Candidate gene prioritization	Which rice grain-length candidate genes have the strongest combined GWAS and expression evidence?	no
+NQ-OS-101	Oryza sativa	Candidate gene prioritization	Which genes would you prioritize for rice grain-weight studies, using GWAS and expression evidence from developing grains?	no
+NQ-OS-102	Oryza sativa	Candidate gene prioritization	Which rice heading-date candidate genes would you prioritize using genetic and expression associations?	no
+NQ-OS-103	Oryza sativa	Candidate gene prioritization	Based on splicing–trait associations, which rice genes would you prioritize for investigating plant-height variation?	no
+NQ-OS-104	Oryza sativa	Candidate gene prioritization	Which rice grain-number-per-panicle candidate genes would you prioritize using GWAS and panicle-expression evidence?	no
+NQ-OS-105	Oryza sativa	Candidate gene prioritization	Which rice spikelet-length candidate genes would you prioritize based on expression associations and functional evidence?	no
+NQ-OS-106	Oryza sativa	Candidate gene prioritization	Which rice grain-thickness candidate genes would you prioritize based on associations with poly(A)-site usage?	yes
+NQ-OS-107	Oryza sativa	Candidate gene prioritization	Which genes would you prioritize for rice root growth angle, using genetic evidence and drought-related functional studies?	no
+NQ-OS-108	Oryza sativa	Candidate gene prioritization	Which rice sodium-transport genes would you prioritize for salt-tolerance studies, using GWAS and root-expression evidence?	no
+NQ-OS-109	Oryza sativa	Candidate gene prioritization	Which rice seedling chilling-tolerance candidate genes would you prioritize using GWAS and cold-responsive expression data?	no
+NQ-OS-110	Oryza sativa	Candidate gene prioritization	Which genes would you prioritize for rice growth under phosphate deficiency, based on genetic and root-expression evidence?	no
+NQ-OS-111	Oryza sativa	Candidate gene prioritization	For reducing rice grain cadmium, how would you prioritize OsHMA3 and OsNRAMP5, considering their effects on manganese uptake?	no
+NQ-OS-112	Oryza sativa	Candidate gene prioritization	Which rice amylose-content candidate genes would you prioritize using GWAS and endosperm-expression evidence?	no
+NQ-OS-113	Oryza sativa	Candidate gene prioritization	Which rice seedling heat-tolerance candidate genes would you prioritize using GWAS and heat-responsive expression data?	no
+NQ-OS-114	Oryza sativa	Candidate gene prioritization	Which genes in the rice GW5 region, including 50 kb on either side, would you prioritize for grain-width studies?	yes
+NQ-OS-115	Oryza sativa	Candidate gene prioritization	Which genes in the rice GS3 region, including 50 kb on either side, have the strongest evidence for grain-length variation?	no
+NQ-OS-116	Oryza sativa	Candidate gene prioritization	Which genes in the rice SD1 region, including 50 kb on either side, would you prioritize for plant-height studies?	no
+NQ-OS-117	Oryza sativa	Candidate gene prioritization	Which genes in the rice Wx region, including 50 kb on either side, would you prioritize for amylose-content studies?	no
+NQ-OS-118	Oryza sativa	Candidate gene prioritization	Which rice heading-date candidates would you prioritize based on splicing associations and functional evidence?	no
+NQ-OS-119	Oryza sativa	Candidate gene prioritization	Which rice grain-width candidates would you prioritize based on associations with poly(A)-site usage?	yes
+NQ-OS-120	Oryza sativa	Candidate gene prioritization	Which genes would you prioritize for variation in effective panicle number in rice, using expression associations and functional evidence?	no
+NQ-OS-121	Oryza sativa	Candidate gene prioritization	Which rice candidate genes would you prioritize after comparing associations with panicle number and yield?	no
+NQ-OS-122	Oryza sativa	Candidate gene prioritization	Which rice salt-tolerance candidate genes are supported across multiple GWAS studies and deserve priority for validation?	no
+NQ-OS-123	Oryza sativa	Candidate gene prioritization	Which rice grain-weight candidate genes would you prioritize after considering TWAS and colocalization results?	no
+NQ-OS-124	Oryza sativa	Hypothesis evaluation	Does Hd1 have the same effect on rice heading across genetic backgrounds, and what evidence explains any differences?	yes
+NQ-OS-125	Oryza sativa	Hypothesis evaluation	Are the effects of Ghd7 on rice yield consistent across growing environments, and what evidence supports this assessment?	no
+NQ-OS-126	Oryza sativa	Hypothesis evaluation	What evidence distinguishes the effect of GS3 on rice grain length from effects of nearby linked variants?	no
+NQ-OS-127	Oryza sativa	Hypothesis evaluation	How well can grain-width GWAS evidence near GW5 distinguish GW5 from neighbouring candidate genes in rice?	no
+NQ-OS-128	Oryza sativa	Hypothesis evaluation	What evidence supports the hypothesis that altered splicing of rice OsPIE1 (LOC_Os01g72480) affects plant height, and what remains unresolved?	no
+NQ-OS-129	Oryza sativa	Hypothesis evaluation	What experimental evidence connects altered Wx splicing to changes in rice amylose content?	no
+NQ-OS-130	Oryza sativa	Hypothesis evaluation	Can existing evidence distinguish protein-function differences from expression differences in the effect of OsNRT1.1B on rice nitrate use?	no
+NQ-OS-131	Oryza sativa	Hypothesis evaluation	How strongly does experimental evidence support a role for natural variation in OsHKT1;5 in rice salt tolerance?	yes
+NQ-OS-132	Oryza sativa	Hypothesis evaluation	How does manganese supply affect cadmium accumulation and growth in OsNRAMP5-knockout rice?	no
+NQ-OS-133	Oryza sativa	Hypothesis evaluation	How strong is the field evidence that DRO1 improves rice yield under drought?	yes
+NQ-OS-134	Oryza sativa	Hypothesis evaluation	How should the effects of semidwarf SD1 alleles on rice lodging resistance and yield be evaluated?	no
+NQ-OS-135	Oryza sativa	Hypothesis evaluation	If a GS5 eQTL overlaps a rice grain-width GWAS hit, what further evidence is needed to support an expression-mediated effect?	no
+NQ-OS-136	Oryza sativa	Hypothesis evaluation	If both expression and poly(A)-site usage of a rice gene are associated with grain width, how would you test their individual contributions?	no
+NQ-OS-137	Oryza sativa	Hypothesis evaluation	How should a rice grain-weight candidate with a strong TWAS association but weak colocalization evidence be evaluated?	no
+NQ-OS-138	Oryza sativa	Hypothesis evaluation	How should a significant SMR association with rice grain width be interpreted when the HEIDI test indicates heterogeneity?	no
+NQ-OS-139	Oryza sativa	Hypothesis evaluation	How would you determine whether a grain-width-associated expression signal in rice leaves reflects a gene’s role in developing grains?	no
+NQ-OS-140	Oryza sativa	Hypothesis evaluation	If a rice sQTL is significant in indica but not japonica, what evidence is needed to claim a subspecies-specific effect?	no
+NQ-OS-141	Oryza sativa	Hypothesis evaluation	If rice plant-height and yield GWAS signals overlap, how would you distinguish a shared causal variant from separate linked variants?	no
+NQ-OS-142	Oryza sativa	Hypothesis evaluation	When combining rice GWAS records near Wx across studies, what information is needed to establish that they refer to the same variant?	no
+NQ-OS-143	Oryza sativa	Hypothesis evaluation	How should expression–trait associations detected in both leaves and young panicles of the same rice accessions be evaluated, and what independent validation is needed?	no
+NQ-OS-144	Oryza sativa	Hypothesis evaluation	How would you test whether a natural variant affects rice plant height by changing OsPIE1 (LOC_Os01g72480) splicing?	no
+NQ-OS-145	Oryza sativa	Hypothesis evaluation	How would you test whether altered OsFCA poly(A)-site usage affects rice grain width?	no
+NQ-OS-146	Oryza sativa	Hypothesis evaluation	How could an expression change in a rice salt-tolerance candidate be distinguished as a cause of tolerance rather than a consequence of salt damage?	no
+NQ-OS-147	Oryza sativa	Hypothesis evaluation	How would you test the effect of a natural COLD1 variant on chilling tolerance while controlling for indica–japonica genetic-background differences?	no
+NQ-OS-148	Oryza sativa	Hypothesis evaluation	How would you explain an Oryza rufipogon accession that carries a reduced-shattering sh4 allele but still shatters readily?	no
+NQ-OS-149	Oryza sativa	Gene function	How does D53 regulate strigolactone signalling and tillering in rice?	no
+NQ-OS-150	Oryza sativa	Gene annotation	Do D14, D88 and HTD2 refer to the same rice gene, and what are its MSU and RAP IDs?	no

@@ -4,16 +4,7 @@ This directory provides the final benchmark questions, complete responses, score
 
 ## Evaluation design
 
-The benchmark contains 300 questions: 150 for rice and 150 for *Arabidopsis thaliana*. Each of six task categories contains 50 questions, including 25 per species group. The fixed repeat subset contains 30 questions, with 15 per species group and five per task category.
-
-| Category in the data | Label in the figures |
-| --- | --- |
-| Gene function and mechanism | Gene function |
-| Gene identifiers and genome annotation | Gene annotation |
-| Molecular phenotypes and genetic regulation | Molecular regulation |
-| Genetic variation and locus analysis | Variant analysis |
-| Candidate-gene selection and prioritization | Candidate gene prioritization |
-| Evidence evaluation and hypothesis testing | Hypothesis evaluation |
+The benchmark contains 300 questions: 150 for rice and 150 for *Arabidopsis thaliana*. The six task categories are Gene function, Gene annotation, Molecular regulation, Variant analysis, Candidate gene prioritization, and Hypothesis evaluation. Each category contains 50 questions, including 25 per species group. The fixed repeat subset contains 30 questions, with 15 per species group and five per task category.
 
 Nine configurations were evaluated: the full PlantQTLdb Assistant, its literature-KG-only configuration, and seven standalone models (GPT-5.6 Sol, GLM-5.3, DeepSeek V4 Pro, DeepSeek V4.1 Flash, Kimi K2.5, MiniMax M3 and Qwen-3.8-Flash). Both Assistant configurations used DeepSeek V4.1 Flash and the same agent framework. The full configuration additionally accessed population multi-omics resources and retrieval and analysis tools. Figure 3A–B and Figures S3–S5 show the full Assistant and seven standalone models; Figure 3C compares the two Assistant configurations.
 
