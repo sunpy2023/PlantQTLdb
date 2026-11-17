@@ -1,6 +1,6 @@
 # <picture><source media="(prefers-color-scheme: dark)" srcset="assets/plantqtldb-header-dark.svg"><img src="assets/plantqtldb-header-light.svg" alt="PlantQTLdb" width="240"></picture>
 
-[PlantQTLdb](https://plantqtldb.cn/) integrates population multi-omics data, genetic associations and literature-derived knowledge to support research on gene function and complex plant traits. PlantQTLdb Assistant retrieves and synthesizes evidence from these resources to answer plant research questions.
+[PlantQTLdb](https://plantqtldb.cn/) integrates population multi-omics data, genetic associations and literature-derived knowledge to support research on gene function and complex plant traits. **PlantQTLdb Assistant** retrieves and synthesizes evidence from these resources to answer plant research questions.
 
 This repository provides the multi-omics analysis workflows, literature relation extraction prompt and final Assistant benchmark data accompanying PlantQTLdb.
 
@@ -22,15 +22,17 @@ This repository provides the multi-omics analysis workflows, literature relation
 
 ## Using the analysis workflows
 
-The shell workflows are intended for Linux/HPC environments. Choose the relevant analysis, install the tools it calls, and replace the example paths, sample identifiers and other settings with those for your dataset. Run the workflows from the repository root so that references to `script/` resolve correctly. Input datasets and reference files are specified in the individual workflows.
+The shell workflows are intended for Linux/HPC environments. Choose the relevant analysis, install the tools it calls, and replace the example paths, sample identifiers and other settings with those for your dataset. Run the workflows from the **repository root** so that references to `script/` resolve correctly. Input datasets and reference files are specified in the individual workflows.
 
 ## Literature relation extraction
 
-The [extraction prompt](09_literature_extraction/literature_relation_extraction_prompt.md) defines the relationship categories and evidence requirements used to extract gene-centered knowledge with DeepSeek V4 Pro.
+The [extraction prompt](09_literature_extraction/literature_relation_extraction_prompt.md) defines the relationship categories and evidence requirements used to extract gene-centered knowledge with **DeepSeek V4 Pro**.
 
 ## Assistant benchmark
 
-The benchmark comprises 300 questions, with 150 each for rice and *Arabidopsis thaliana* and 50 in each of six task categories. It compares the full Assistant, an Assistant configuration restricted to the literature-derived knowledge graph, and seven general-purpose language models. We evaluated responses using GPT-5.6 Sol across five equally weighted dimensions: factual accuracy, evidence completeness, source traceability, hallucination control and calibration, and synthesis quality. Each dimension was scored from 0 to 20; their sum gives a total score of 0–100.
+- **Question set:** **300 questions**, with 150 each for rice and *Arabidopsis thaliana* and 50 in each of six task categories.
+- **Systems:** the **full Assistant**, the **literature-KG-only Assistant**, and **seven general-purpose language models**. The literature-KG-only configuration is restricted to the literature-derived knowledge graph.
+- **Evaluation:** responses were scored using **GPT-5.6 Sol** across five equally weighted dimensions: factual accuracy, evidence completeness, source traceability, hallucination control and calibration, and synthesis quality. Each dimension was scored from **0 to 20**, giving a **total score of 0–100**.
 
 | File | Contents |
 | --- | --- |
@@ -43,4 +45,4 @@ The benchmark comprises 300 questions, with 150 each for rice and *Arabidopsis t
 | [Repeated scoring](10_benchmark/repeated_scoring.tsv) | 810 evaluations: three scoring rounds of the same 270 primary responses |
 | [Repeated generation scores](10_benchmark/repeated_generation_scores.tsv) | 810 evaluations: one rating per response across three generation rounds on the fixed subset |
 
-Round 1 in both repeat-score files reuses the primary evaluation; the files therefore share 270 records. See the [benchmark guide](10_benchmark/README.md) for model configurations, task categories, data fields and evaluation details.
+Round 1 in both repeat-score files reuses the primary evaluation; the files therefore share **270 records**. See the [benchmark guide](10_benchmark/README.md) for model configurations, task categories, data fields and evaluation details.

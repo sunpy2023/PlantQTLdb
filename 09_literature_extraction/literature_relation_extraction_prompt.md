@@ -1,10 +1,10 @@
 # PlantQTLdb Literature-Based Biological Relation Extraction Prompt
 
-**Model:** DeepSeek V4 Pro
+**Model:** **DeepSeek V4 Pro**
 
 **Extraction conventions:** Species-aware gene symbols and single-gene subjects.
 
-> Reader note: The prompt below refers to paper text, paper identifiers, species metadata and a JSON output schema supplied by the caller. The caller-supplied schema is not included in this file. This note is documentation, not part of the extraction instructions.
+> **Reader note:** The prompt below refers to paper text, paper identifiers, species metadata and a JSON output schema supplied by the caller. The caller-supplied schema is not included in this file. This note is documentation, not part of the extraction instructions.
 
 ## Core principle
 

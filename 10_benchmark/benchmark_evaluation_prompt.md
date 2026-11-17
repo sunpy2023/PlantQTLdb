@@ -1,12 +1,12 @@
 # PlantQTLdb benchmark: evaluation prompts
 
-This document contains two prompts: one for scoring anonymized answers and one for preparing shared verification evidence. The scoring rubric uses five equally weighted dimensions, each scored from 0 to 20, for a total of 100. No predefined reference answer is required.
+This document contains two prompts: one for scoring anonymized answers and one for preparing shared verification evidence. The scoring rubric uses **five equally weighted dimensions**, each scored from **0 to 20**, for a **total score of 0–100**. No predefined reference answer is required.
 
 In the default workflow, verification is performed once per question; independent grading requests receive the complete answers and the same verification record, without previous scores. The record is evidence to assess, not an infallible answer key.
 
 If output validation identifies a quotation taken from a different candidate, the affected answer is re-evaluated once in isolation using the same rubric and shared factual evidence, without other candidates' complete answers or prior grades. Unaffected judgments are retained; original output and recovery requests are recorded separately. Invalid recovery remains unpublished. This is technical error recovery, not an additional independent scoring round.
 
-The [TSV rubric](scoring_rubric.tsv) contains the same dimension definitions and scoring bands. See the [benchmark guide](README.md) for the published data schema and evaluation design. This introduction is not part of either prompt. The prompt bodies are delimited by the “begins” and “ends” headings below. Placeholders such as `{{question_id}}` are populated at runtime. The verification prompt also refers to a caller-supplied JSON schema; this document does not include that schema.
+The [TSV rubric](scoring_rubric.tsv) contains the same dimension definitions and scoring bands. See the [benchmark guide](README.md) for the published data schema and evaluation design. **This introduction is not part of either prompt.** The prompt bodies are delimited by the “begins” and “ends” headings below. Placeholders such as `{{question_id}}` are populated at runtime. The verification prompt also refers to a caller-supplied JSON schema; this document does not include that schema.
 
 ## Judge prompt begins
 
