@@ -114,7 +114,7 @@ Return JSON only, conforming to the supplied schema. Include every answer ID onc
 
 ```json
 {
-  "rubric_version": "4.3.2",
+  "rubric_version": "v1.1.1",
   "question_id": "<supplied ID>",
   "question_requirements": ["<essential requirement>"],
   "verification_summary": "<evidence used, access limits, and any disagreement with preliminary assessments>",
@@ -165,7 +165,7 @@ QUESTION:
 CANDIDATE_ANSWERS_JSON:
 {{array_of_answer_id_answer_text_original_citation_targets_and_capture_status}}
 
-Return JSON conforming to the supplied schema, with rubric_version 4.3.2 and the supplied question_id. Derive a short preliminary requirement list from the question alone. Check decisive facts, suspected contradictions, and conclusion-changing values against accessible primary publications, annotations, or database records. Prioritize facts that could change the central assessment; do not exhaustively verify every sentence or seek all studies. Stop when those checks are adequately supported or cannot be resolved with accessible evidence. Combine repeated checks of the same claim and biological scope rather than duplicating them for each answer. Record biological context and access limits; allow valid alternative contexts where the question does not specify one. Failed or unknown-status lookups cannot establish verified support or contradiction. Do not treat failed retrieval as absence or a search title as full-page inspection.
+Return JSON conforming to the supplied schema, with rubric_version v1.1.1 and the supplied question_id. Derive a short preliminary requirement list from the question alone. Check decisive facts, suspected contradictions, and conclusion-changing values against accessible primary publications, annotations, or database records. Prioritize facts that could change the central assessment; do not exhaustively verify every sentence or seek all studies. Stop when those checks are adequately supported or cannot be resolved with accessible evidence. Combine repeated checks of the same claim and biological scope rather than duplicating them for each answer. Record biological context and access limits; allow valid alternative contexts where the question does not specify one. Failed or unknown-status lookups cannot establish verified support or contradiction. Do not treat failed retrieval as absence or a search title as full-page inspection.
 
 Use unique fact IDs C1, C2, ... . Each records claim, context, evidence_status, source_url, source_excerpt, and finding. Supported/contradicted facts require an actually retrieved URL and a short source excerpt (at most 25 quoted words per source); otherwise use unresolved/not_checked with null where appropriate. Copy source_url and positively assessed locator URLs exactly as returned by completed retrieval calls, including query parameters; do not shorten, canonicalize, or remove tracking parameters. Retrieval activity supports provenance, not independent certification of scientific truth.
 
@@ -181,7 +181,7 @@ For every answer ID in input order, briefly inventory distinct supplied sources 
 
 ```json
 {
-  "rubric_version": "4.3.2",
+  "rubric_version": "v1.1.1",
   "question_id": "<supplied question ID>",
   "question_requirements": [
     "<essential requirement derived from the question>"
