@@ -4,7 +4,42 @@
 
 **Extraction conventions:** Species-aware gene symbols and single-gene subjects.
 
-> **Reader note:** The prompt below refers to paper text, paper identifiers, species metadata and a JSON output schema supplied by the caller. The caller-supplied schema is not included in this file. This note is documentation, not part of the extraction instructions.
+> **Reader note:** The prompt below refers to paper text, paper identifiers, species metadata and a JSON output schema supplied by the caller. A fixed output example is provided below to explain the fields; it does not reproduce the caller-supplied runtime schema. This note and the example are documentation, not part of the extraction instructions.
+
+## Output format example
+
+**Documentation example — not an extracted result or the original runtime schema.** This single-paper record illustrates the fields described in the prompt. The record structure and metadata representation are illustrative; a calling program may impose a different schema or batch wrapper. Angle-bracketed text denotes a placeholder.
+
+```json
+{
+  "paper_id": "<supplied paper ID>",
+  "species": "<caller-provided species>",
+  "document_assessment": "<brief assessment of extractable evidence in the supplied text>",
+  "detected_entities": [],
+  "gene_id_links": [],
+  "relations": [
+    {
+      "subject_gene": "<one gene symbol explicitly named in the paper>",
+      "relation_family": "GENE_ASSOCIATED_WITH_TRAIT_OR_PHENOTYPE",
+      "target": "<trait or phenotype explicitly linked to the gene>",
+      "target_type": "trait",
+      "support_type": "evidence",
+      "evidence_text": "<exact supporting sentence or fragment from the supplied paper>",
+      "experiment_basis": null,
+      "polarity": "unclear",
+      "condition_context": null
+    }
+  ]
+}
+```
+
+- **Paper identity:** preserve the supplied `paper_id` and species metadata. Represent each requested paper once when processing a batch.
+- **Relations:** add one object per supported gene-centered relationship. Use the relation families and evidence rules defined below. The example shows one relation type; it does not restrict extraction to that type.
+- **Evidence:** replace `evidence_text` with a sentence or fragment from the supplied paper. Assign `support_type` according to the paper; the illustrated value `evidence` applies only to a direct finding.
+- **Missing information:** use `null` or an empty list as directed by the prompt. Empty entity and mapping lists in this example are placeholders, not instructions to omit supported information.
+- **No extractable relationship:** return an empty `relations` list and an informative `document_assessment`.
+
+The extraction instructions begin below.
 
 ## Core principle
 

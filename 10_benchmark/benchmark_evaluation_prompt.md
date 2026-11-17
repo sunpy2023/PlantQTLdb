@@ -6,7 +6,7 @@ In the default workflow, verification is performed once per question; independen
 
 If output validation identifies a quotation taken from a different candidate, the affected answer is re-evaluated once in isolation using the same rubric and shared factual evidence, without other candidates' complete answers or prior grades. Unaffected judgments are retained; original output and recovery requests are recorded separately. Invalid recovery remains unpublished. This is technical error recovery, not an additional independent scoring round.
 
-The [TSV rubric](scoring_rubric.tsv) contains the same dimension definitions and scoring bands. See the [benchmark guide](README.md) for the published data schema and evaluation design. **This introduction is not part of either prompt.** The prompt bodies are delimited by the “begins” and “ends” headings below. Placeholders such as `{{question_id}}` are populated at runtime. The verification prompt also refers to a caller-supplied JSON schema; this document does not include that schema.
+The [TSV rubric](scoring_rubric.tsv) contains the same dimension definitions and scoring bands. See the [benchmark guide](README.md) for the published data schema and evaluation design. **This introduction is not part of either prompt.** The prompt bodies are delimited by the “begins” and “ends” headings below. Placeholders such as `{{question_id}}` are populated at runtime. The verification prompt refers to a caller-supplied JSON schema. A reader-facing [output format example](#output-format-example-verification) is provided after the prompt; it illustrates the fields without reproducing the runtime schema.
 
 ## Judge prompt begins
 
@@ -174,3 +174,47 @@ Inspect any supplied `captured_sources` before declaring their contents inaccess
 For every answer ID in input order, briefly inventory distinct supplied sources relevant to the question; do not create an entry for every claim or repeat the same source. Copy only its citation label, identifier or URL into source_span (not a paraphrase of the answer), and resolve locator to one retrieved URL or one supplied capture locator belonging to that answer. Use separate entries for different sources, not a combined locator string. Record support_status (supports_relevant_content, does_not_support, or unresolved) and supported_scope; positive support requires inspected content. Author-year citations and stable annotation IDs may qualify without a URL in the answer. Sources can support peripheral content without validating a wrong central claim. An answer with no identifiable sources has an empty sources list. Record preliminary findings, not scores or binding grading instructions.
 
 ## Verification prompt ends
+
+## Output format example: verification
+
+**Documentation example — not a recorded benchmark output or the original runtime schema.** The fixed structure below illustrates how question requirements, factual checks and per-answer source assessments can be organized. Collection names and nesting are illustrative; software that uses a caller-supplied schema must follow that schema. Angle-bracketed text denotes a placeholder.
+
+```json
+{
+  "rubric_version": "4.3.2",
+  "question_id": "<supplied question ID>",
+  "question_requirements": [
+    "<essential requirement derived from the question>"
+  ],
+  "facts": [
+    {
+      "fact_id": "C1",
+      "claim": "<claim to verify>",
+      "context": "<species and relevant biological scope>",
+      "evidence_status": "unresolved",
+      "source_url": null,
+      "source_excerpt": null,
+      "finding": "<what remains unresolved and why>"
+    }
+  ],
+  "answer_sources": [
+    {
+      "answer_id": "A01",
+      "sources": [
+        {
+          "source_span": "<citation label copied from answer A01>",
+          "locator": null,
+          "support_status": "unresolved",
+          "supported_scope": "<scope that could not be verified>"
+        }
+      ]
+    }
+  ]
+}
+```
+
+- **One question per record:** use the supplied question ID and include every candidate answer ID in input order. Add factual checks with unique IDs (`C1`, `C2`, …) as needed.
+- **Evidence status:** use `supported`, `contradicted`, `unresolved` or `not_checked`. The example uses `unresolved` to avoid implying that any evidence has been verified.
+- **Source assessment:** use `supports_relevant_content`, `does_not_support` or `unresolved`. Use an empty `sources` list when an answer supplies no identifiable sources.
+- **Source fields:** populate them only with retrieved evidence or supplied capture records, as specified in the prompt. `null` denotes unavailable information; placeholders must not be treated as evidence.
+- **Separate verification from scoring:** this record contains no scores. The judge prompt above already provides the scoring output example, including five dimension scores, their total and rationales.
