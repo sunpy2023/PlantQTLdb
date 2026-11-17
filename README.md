@@ -2,7 +2,7 @@
 
 [PlantQTLdb](https://plantqtldb.cn/) integrates population multi-omics data, genetic associations and literature-derived knowledge to support research on gene function and complex plant traits. PlantQTLdb Assistant retrieves and synthesizes evidence from these resources to answer plant research questions.
 
-This repository provides the multi-omics analysis workflows, literature relationship extraction prompt and final Assistant benchmark data accompanying PlantQTLdb.
+This repository provides the multi-omics analysis workflows, literature relation extraction prompt and final Assistant benchmark data accompanying PlantQTLdb.
 
 ## Repository contents
 
@@ -24,19 +24,19 @@ This repository provides the multi-omics analysis workflows, literature relation
 
 The shell workflows are intended for Linux/HPC environments. Choose the relevant analysis, install the tools it calls, and replace the example paths, sample identifiers and other settings with those for your dataset. Run the workflows from the repository root so that references to `script/` resolve correctly. Input datasets and reference files are specified in the individual workflows.
 
-## Literature relationship extraction
+## Literature relation extraction
 
 The [extraction prompt](09_literature_extraction/literature_relation_extraction_prompt.md) defines the relationship categories and evidence requirements used to extract gene-centered knowledge with DeepSeek V4 Pro.
 
 ## Assistant benchmark
 
-The benchmark comprises 300 questions, with 150 each for rice and *Arabidopsis thaliana* and 50 in each of six task categories. It compares the full Assistant, its literature-KG-only configuration and seven standalone language models. Responses were evaluated across five equally weighted dimensions, each scored from 0 to 20, giving a total score of 0–100.
+The benchmark comprises 300 questions, with 150 each for rice and *Arabidopsis thaliana* and 50 in each of six task categories. It compares the full Assistant, an Assistant configuration restricted to the literature-derived knowledge graph, and seven general-purpose language models. We evaluated responses using GPT-5.6 Sol across five equally weighted dimensions: factual accuracy, evidence completeness, source traceability, hallucination control and calibration, and synthesis quality. Each dimension was scored from 0 to 20; their sum gives a total score of 0–100.
 
 | File | Contents |
 | --- | --- |
 | [Question set](10_benchmark/questions.tsv) | 300 questions, species groups, task categories and repeat-subset membership |
 | [Scoring rubric](10_benchmark/scoring_rubric.tsv) | Dimension definitions and scoring criteria from manuscript Table S5 |
-| [Evaluation prompt](10_benchmark/benchmark_evaluation_prompt.md) | Anonymous response scoring and evidence-verification instructions |
+| [Evaluation prompt](10_benchmark/benchmark_evaluation_prompt.md) | Instructions for scoring anonymized responses and verifying evidence |
 | [Primary responses](10_benchmark/primary_responses.tsv) | 2,700 complete responses: 300 questions × nine configurations |
 | [Primary scores](10_benchmark/primary_scores.tsv) | 2,700 evaluations with dimension scores, totals and rationales from manuscript Table S6 |
 | [Repeated generation responses](10_benchmark/repeated_generation_responses.tsv) | 540 additional responses from generation rounds 2 and 3 on a fixed 30-question subset |

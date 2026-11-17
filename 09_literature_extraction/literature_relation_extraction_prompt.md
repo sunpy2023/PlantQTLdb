@@ -4,6 +4,8 @@
 
 **Extraction conventions:** Species-aware gene symbols and single-gene subjects.
 
+> Reader note: The prompt below refers to paper text, paper identifiers, species metadata and a JSON output schema supplied by the caller. The caller-supplied schema is not included in this file. This note is documentation, not part of the extraction instructions.
+
 ## Core principle
 
 Work only from the provided text. Do not use outside knowledge.
