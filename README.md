@@ -1,42 +1,46 @@
 # <picture><source media="(prefers-color-scheme: dark)" srcset="assets/plantqtldb-header-dark.svg"><img src="assets/plantqtldb-header-light.svg" alt="PlantQTLdb" width="240"></picture>
 
-PlantQTLdb is a plant multi-omics knowledgebase that integrates an LLM-powered research assistant. Researchers can use [PlantQTLdb](https://plantqtldb.cn/) to explore molecular variation across plant populations and evaluate genetic, molecular, and literature evidence for candidate genes and variants.
+[PlantQTLdb](https://plantqtldb.cn/) integrates population multi-omics data, genetic associations and literature-derived knowledge to support research on gene function and complex plant traits. PlantQTLdb Assistant retrieves and synthesizes evidence from these resources to answer plant research questions.
 
-This repository provides the workflows used to analyze PlantQTLdb's multi-omics data, the [literature relationship extraction prompt](09_literature_extraction/literature_relation_extraction_prompt.md), and the [benchmark materials](10_benchmark/).
+This repository provides the multi-omics analysis workflows, literature relationship extraction prompt and final Assistant benchmark data accompanying PlantQTLdb.
 
-## Analysis workflows
+## Repository contents
 
-| Directory | Analysis |
+| Directory | Contents |
 | --- | --- |
-| [01_genotype](01_genotype/) | Genotype calling from whole-genome and RNA sequencing, genotype merging, and quality control |
+| [01_genotype](01_genotype/) | Genotype calling from whole-genome and RNA sequencing, genotype merging and quality control |
 | [02_rna_seq](02_rna_seq/) | RNA-seq preprocessing and gene expression quantification |
-| [03_alternative_splicing](03_alternative_splicing/) | Splice graph construction, quantification of percent spliced in (PSI), and event classification |
-| [04_alternative_polyadenylation](04_alternative_polyadenylation/) | Quantification of distal poly(A) site usage and preparation of phenotype matrices |
-| [05_molqtl_mapping](05_molqtl_mapping/) | Phenotype and covariate preparation and mapping of eQTLs, sQTLs, and apaQTLs |
+| [03_alternative_splicing](03_alternative_splicing/) | Splice graph construction, percent spliced in (PSI) quantification and event classification |
+| [04_alternative_polyadenylation](04_alternative_polyadenylation/) | Distal poly(A) site usage quantification and phenotype matrix preparation |
+| [05_molqtl_mapping](05_molqtl_mapping/) | Phenotype and covariate preparation; eQTL, sQTL and apaQTL mapping |
 | [06_gwas](06_gwas/) | Genome-wide association analysis and visualization |
-| [07_integrative_analysis](07_integrative_analysis/) | EWAS, TWAS, SMR, and colocalization analyses |
-| [08_functional_annotation](08_functional_annotation/) | Prediction of variant consequences with SnpEff |
+| [07_integrative_analysis](07_integrative_analysis/) | EWAS, TWAS, SMR and colocalization analyses |
+| [08_functional_annotation](08_functional_annotation/) | Variant consequence prediction using SnpEff |
+| [09_literature_extraction](09_literature_extraction/) | Prompt for extracting species-aware, gene-centered relationships from the literature |
+| [10_benchmark](10_benchmark/) | Final benchmark questions, complete responses, scores, scoring rubric and evaluation prompt |
+| [script](script/) | Python and R helpers called by the analysis workflows |
 
-## Using the workflows
+## Using the analysis workflows
 
-Choose the directory for your analysis. Before running a shell script, replace the example paths and sample identifiers with those for your dataset and install the tools it calls. Run the scripts from the repository root so that relative paths to the shared [Python and R scripts](script/) resolve correctly.
+The shell workflows are intended for Linux/HPC environments. Choose the relevant analysis, install the tools it calls, and replace the example paths, sample identifiers and other settings with those for your dataset. Run the workflows from the repository root so that references to `script/` resolve correctly. Input datasets and reference files are specified in the individual workflows.
 
 ## Literature relationship extraction
 
-The [literature extraction prompt](09_literature_extraction/literature_relation_extraction_prompt.md) defines species-aware, gene-centered relationship extraction using DeepSeek V4 Pro.
+The [extraction prompt](09_literature_extraction/literature_relation_extraction_prompt.md) defines the relationship categories and evidence requirements used to extract gene-centered knowledge with DeepSeek V4 Pro.
 
-## Benchmark materials
+## Assistant benchmark
 
-The [benchmark directory](10_benchmark/) contains the final question set, complete responses, scores, scoring rubric and [evaluation prompt](10_benchmark/benchmark_evaluation_prompt.md). It covers 300 questions across two species groups and six task categories, evaluated under nine system configurations, including the updated MiniMax M3 results.
+The benchmark comprises 300 questions, with 150 each for rice and *Arabidopsis thaliana* and 50 in each of six task categories. It compares the full Assistant, its literature-KG-only configuration and seven standalone language models. Responses were evaluated across five equally weighted dimensions, each scored from 0 to 20, giving a total score of 0–100.
 
 | File | Contents |
 | --- | --- |
-| [Questions](10_benchmark/questions.tsv) | 300 questions and membership of the fixed 30-question repeat subset |
-| [Scoring rubric](10_benchmark/scoring_rubric.tsv) | Five evaluation dimensions and their scoring criteria (manuscript Table S5) |
-| [Primary responses](10_benchmark/primary_responses.tsv) | 2,700 complete responses for generation round 1 |
-| [Primary scores](10_benchmark/primary_scores.tsv) | 2,700 primary evaluations, including five dimension scores, totals and rationales (manuscript Table S6) |
-| [Repeated generation responses](10_benchmark/repeated_generation_responses.tsv) | 540 additional responses from generation rounds 2 and 3 |
-| [Repeated scoring](10_benchmark/repeated_scoring.tsv) | 810 evaluations from three scoring rounds of the same 270 primary responses |
-| [Repeated generation scores](10_benchmark/repeated_generation_scores.tsv) | 810 evaluations of responses from three generation rounds on the fixed subset |
+| [Question set](10_benchmark/questions.tsv) | 300 questions, species groups, task categories and repeat-subset membership |
+| [Scoring rubric](10_benchmark/scoring_rubric.tsv) | Dimension definitions and scoring criteria from manuscript Table S5 |
+| [Evaluation prompt](10_benchmark/benchmark_evaluation_prompt.md) | Anonymous response scoring and evidence-verification instructions |
+| [Primary responses](10_benchmark/primary_responses.tsv) | 2,700 complete responses: 300 questions × nine configurations |
+| [Primary scores](10_benchmark/primary_scores.tsv) | 2,700 evaluations with dimension scores, totals and rationales from manuscript Table S6 |
+| [Repeated generation responses](10_benchmark/repeated_generation_responses.tsv) | 540 additional responses from generation rounds 2 and 3 on a fixed 30-question subset |
+| [Repeated scoring](10_benchmark/repeated_scoring.tsv) | 810 evaluations: three scoring rounds of the same 270 primary responses |
+| [Repeated generation scores](10_benchmark/repeated_generation_scores.tsv) | 810 evaluations: one rating per response across three generation rounds on the fixed subset |
 
-See the [benchmark README](10_benchmark/README.md) for the study design, data fields and distinction between repeated scoring and repeated generation. The two repeat-score files share 270 primary evaluations and should not be pooled as independent observations.
+Round 1 in both repeat-score files reuses the primary evaluation; the files therefore share 270 records. See the [benchmark guide](10_benchmark/README.md) for model configurations, task categories, data fields and evaluation details.
