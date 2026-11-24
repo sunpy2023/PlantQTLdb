@@ -19,13 +19,16 @@ These category names are used consistently in the data files, manuscript and fig
 
 ### Systems and resource comparison
 
-**Nine system configurations** were evaluated:
+**Ten system configurations** were evaluated in the primary benchmark:
 
 - **Full PlantQTLdb Assistant**
 - **Literature-KG-only Assistant:** restricted to the literature-derived knowledge graph.
+- **Local KG Assistant:** accesses the local literature and multi-omics knowledge graph and PlantQTLdb's local retrieval tools. External retrieval and analysis tools are disabled for this configuration.
 - **Seven general-purpose language models:** **GPT-5.6 Sol**, **GLM-5.3**, **DeepSeek V4 Pro**, **DeepSeek V4.1 Flash**, **Kimi K2.5**, **MiniMax M3** and **Qwen-3.8-Flash**.
 
-Both Assistant configurations used **DeepSeek V4.1 Flash** and the same agent framework. The full configuration additionally accessed population multi-omics resources and retrieval and analysis tools. This comparison assesses the combined contribution of these additional resources and tools to answer quality. **Figure 3A–B** and **Figures S3–S5** show the full Assistant and seven general-purpose models; **Figure 3C** compares the two Assistant configurations. The released data retain all nine configurations.
+The three Assistant configurations used **DeepSeek V4.1 Flash**. **Figure 3C** compares these configurations with DeepSeek V4.1 Flash evaluated on its own, using the same 300 questions. **Figure 3A–B** and **Figures S3–S5** show the full Assistant and seven general-purpose models. The Local KG configuration was evaluated in the primary round.
+
+The Assistant software was updated during collection of the literature and multi-omics KG responses. Figure 3C therefore compares configurations as evaluated. The resource comparison reports means and matched-question differences with percentile 95% confidence intervals from 10,000 bootstrap samples (seed 20261116), stratified by species group and task category. Each resampled question contributes scores for all compared configurations.
 
 ### Response scoring
 
@@ -48,8 +51,9 @@ The [scoring rubric](scoring_rubric.tsv) defines each dimension and its score ba
 | [questions.tsv](questions.tsv) | 300 | Question ID, species group, task category, question text and repeat-subset flag |
 | [scoring_rubric.tsv](scoring_rubric.tsv) | 25 | Dimension definitions and score bands from manuscript Table S5 |
 | [benchmark_evaluation_prompt.md](benchmark_evaluation_prompt.md) | — | Scoring and evidence-verification prompts |
-| [primary_responses.tsv](primary_responses.tsv) | 2,700 | Complete primary responses |
-| [primary_scores.tsv](primary_scores.tsv) | 2,700 | Dimension scores, totals and rationales from manuscript Table S6, linked to response IDs |
+| [primary_responses.tsv](primary_responses.tsv) | 3,000 | Complete primary responses |
+| [primary_scores.tsv](primary_scores.tsv) | 3,000 | Dimension scores, totals and rationales from manuscript Table S6, linked to response IDs |
+| [resource_comparison.tsv](resource_comparison.tsv) | 7 | Overall and six task-category rows with means, confidence intervals and paired differences for Figure 3C |
 | [repeated_generation_responses.tsv](repeated_generation_responses.tsv) | 540 | Complete responses from generation rounds 2 and 3 |
 | [repeated_scoring.tsv](repeated_scoring.tsv) | 810 | Three ratings of each fixed primary response in the repeat subset |
 | [repeated_generation_scores.tsv](repeated_generation_scores.tsv) | 810 | One rating per response across three generation rounds in the repeat subset |

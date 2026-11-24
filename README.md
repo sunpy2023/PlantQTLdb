@@ -31,7 +31,7 @@ The [extraction prompt](09_literature_extraction/literature_relation_extraction_
 ## Assistant benchmark
 
 - **Question set:** **300 questions**, with 150 each for rice and *Arabidopsis thaliana* and 50 in each of six task categories.
-- **Systems:** the **full Assistant**, the **literature-KG-only Assistant**, and **seven general-purpose language models**. The literature-KG-only configuration is restricted to the literature-derived knowledge graph.
+- Systems: three Assistant resource configurations and seven general-purpose language models. The Assistant configurations have access to the literature KG only, local literature and multi-omics resources, or full resources.
 - **Evaluation:** responses were scored using **GPT-5.6 Sol** across five equally weighted dimensions: factual accuracy, evidence completeness, source traceability, hallucination control and calibration, and synthesis quality. Each dimension was scored from **0 to 20**, giving a **total score of 0–100**.
 
 | File | Contents |
@@ -39,8 +39,9 @@ The [extraction prompt](09_literature_extraction/literature_relation_extraction_
 | [Question set](10_benchmark/questions.tsv) | 300 questions, species groups, task categories and repeat-subset membership |
 | [Scoring rubric](10_benchmark/scoring_rubric.tsv) | Dimension definitions and scoring criteria from manuscript Table S5 |
 | [Evaluation prompt](10_benchmark/benchmark_evaluation_prompt.md) | Instructions for scoring anonymized responses and verifying evidence |
-| [Primary responses](10_benchmark/primary_responses.tsv) | 2,700 complete responses: 300 questions × nine configurations |
-| [Primary scores](10_benchmark/primary_scores.tsv) | 2,700 evaluations with dimension scores, totals and rationales from manuscript Table S6 |
+| [Primary responses](10_benchmark/primary_responses.tsv) | 3,000 complete responses: 300 questions × ten configurations |
+| [Primary scores](10_benchmark/primary_scores.tsv) | 3,000 evaluations with dimension scores, totals and rationales from manuscript Table S6 |
+| [Resource comparison](10_benchmark/resource_comparison.tsv) | Overall and task-level means, 95% confidence intervals, and paired score differences for Figure 3C |
 | [Repeated generation responses](10_benchmark/repeated_generation_responses.tsv) | 540 additional responses from generation rounds 2 and 3 on a fixed 30-question subset |
 | [Repeated scoring](10_benchmark/repeated_scoring.tsv) | 810 evaluations: three scoring rounds of the same 270 primary responses |
 | [Repeated generation scores](10_benchmark/repeated_generation_scores.tsv) | 810 evaluations: one rating per response across three generation rounds on the fixed subset |
