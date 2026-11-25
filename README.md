@@ -42,8 +42,8 @@ The [extraction prompt](09_literature_extraction/literature_relation_extraction_
 | [Primary responses](10_benchmark/primary_responses.tsv) | 3,000 complete responses: 300 questions × ten configurations |
 | [Primary scores](10_benchmark/primary_scores.tsv) | 3,000 evaluations with dimension scores, totals and rationales from manuscript Table S6 |
 | [Resource comparison](10_benchmark/resource_comparison.tsv) | Overall and task-level means, 95% confidence intervals, and paired score differences for Figure 3C |
-| [Repeated generation responses](10_benchmark/repeated_generation_responses.tsv) | 540 additional responses from generation rounds 2 and 3 on a fixed 30-question subset |
-| [Repeated scoring](10_benchmark/repeated_scoring.tsv) | 810 evaluations: three scoring rounds of the same 270 primary responses |
-| [Repeated generation scores](10_benchmark/repeated_generation_scores.tsv) | 810 evaluations: one rating per response across three generation rounds on the fixed subset |
+| [Repeated generation responses](10_benchmark/repeated_generation_responses.tsv) | 480 additional responses from generation rounds 2 and 3 on a fixed 30-question subset |
+| [Repeated scoring](10_benchmark/repeated_scoring.tsv) | 720 evaluations: three scoring rounds of the same 240 primary responses |
+| [Repeated generation scores](10_benchmark/repeated_generation_scores.tsv) | 720 evaluations: one rating per response across three generation rounds on the fixed subset |
 
-Round 1 in both repeat-score files reuses the primary evaluation; the files therefore share **270 records**. See the [benchmark guide](10_benchmark/README.md) for model configurations, task categories, data fields and evaluation details.
+Round 1 in both repeat-score files reuses the primary evaluation; the files therefore share **240 records**. See the [benchmark guide](10_benchmark/README.md) for model configurations, task categories, data fields and evaluation details.
