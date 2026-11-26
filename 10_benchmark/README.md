@@ -26,7 +26,7 @@ These category names are used consistently in the data files, manuscript and fig
 - **Local KG Assistant:** accesses the local literature and multi-omics knowledge graph and PlantQTLdb's local retrieval tools. External retrieval and analysis tools are disabled for this configuration.
 - **Seven general-purpose language models:** **GPT-5.6 Sol**, **GLM-5.3**, **DeepSeek V4 Pro**, **DeepSeek V4.1 Flash**, **Kimi K2.5**, **MiniMax M3** and **Qwen-3.8-Flash**.
 
-The three Assistant configurations used **DeepSeek V4.1 Flash**. **Figure 3C** compares these configurations with DeepSeek V4.1 Flash evaluated on its own, using the same 300 questions. **Figure 3A–B** and **Figures S3–S5** show the full Assistant and seven general-purpose models. The Local KG configuration was evaluated in the primary round.
+The three Assistant configurations used **DeepSeek V4.1 Flash**. **Figure 3C** compares these configurations with DeepSeek V4.1 Flash evaluated on its own, using the same 300 questions. **Figure 3A–B** and **Figure S3** show the full Assistant and seven general-purpose models. Figures S4 and S5 include all ten configurations.
 
 The Assistant software was updated during collection of the literature and multi-omics KG responses. Figure 3C therefore compares configurations as evaluated. The resource comparison reports means and matched-question differences with percentile 95% confidence intervals from 10,000 bootstrap samples (seed 20261116), stratified by species group and task category. Each resampled question contributes scores for all compared configurations.
 
@@ -54,9 +54,9 @@ The [scoring rubric](scoring_rubric.tsv) defines each dimension and its score ba
 | [primary_responses.tsv](primary_responses.tsv) | 3,000 | Complete primary responses |
 | [primary_scores.tsv](primary_scores.tsv) | 3,000 | Dimension scores, totals and rationales from manuscript Table S6, linked to response IDs |
 | [resource_comparison.tsv](resource_comparison.tsv) | 7 | Overall and six task-category rows with means, confidence intervals and paired differences for Figure 3C |
-| [repeated_generation_responses.tsv](repeated_generation_responses.tsv) | 480 | Complete responses from generation rounds 2 and 3 |
-| [repeated_scoring.tsv](repeated_scoring.tsv) | 720 | Three ratings of each fixed primary response in the repeat subset |
-| [repeated_generation_scores.tsv](repeated_generation_scores.tsv) | 720 | One rating per response across three generation rounds in the repeat subset |
+| [repeated_generation_responses.tsv](repeated_generation_responses.tsv) | 600 | Complete responses from generation rounds 2 and 3 |
+| [repeated_scoring.tsv](repeated_scoring.tsv) | 900 | Three ratings of each fixed primary response in the repeat subset |
+| [repeated_generation_scores.tsv](repeated_generation_scores.tsv) | 900 | One rating per response across three generation rounds in the repeat subset |
 
 ### Linking the data files
 
@@ -68,16 +68,16 @@ Generation and scoring rounds are recorded separately. Answers and rationales co
 
 ## Repeated evaluations
 
-Figures S4 and S5 and the three repeat files cover the full PlantQTLdb Assistant and the seven general-purpose models. Both analyses use the same 30 questions.
+Figures S4 and S5 and the three repeat files cover all three Assistant configurations and the seven general-purpose models. Both analyses use the same 30 questions.
 
-- **Repeated scoring (Figure S4):** the same 240 primary responses (30 questions × eight systems) were rated in three scoring rounds, giving 720 evaluations.
-- **Repeated generation (Figure S5):** three responses were generated per question and configuration, with one rating per response, giving 720 evaluations. The 480 additional answers from rounds 2 and 3 are stored in `repeated_generation_responses.tsv`; round-1 answers are in `primary_responses.tsv`.
+- **Repeated scoring (Figure S4):** the same 300 primary responses (30 questions × ten configurations) were rated in three scoring rounds, giving 900 evaluations.
+- **Repeated generation (Figure S5):** three responses were generated per question and configuration, with one rating per response, giving 900 evaluations. The 600 additional answers from rounds 2 and 3 are stored in `repeated_generation_responses.tsv`; round-1 answers are in `primary_responses.tsv`.
 
-Round 1 in both score files reuses the primary evaluation, so the two files share **240 evaluations**. These shared records should not be counted as independent repeats.
+Round 1 in both score files reuses the primary evaluation, so the two files share **300 evaluations**. These shared records should not be counted as independent repeats.
 
 ### Summary measures
 
 - **Mean scoring range:** the average of the per-response maximum-minus-minimum total score across three ratings.
 - **Mean within-question generation standard deviation:** the sample standard deviation of the three response scores for each question, averaged across the 30 questions within each system.
 
-The generation score variation includes evaluation variability as well as differences between generated responses.
+Generation score variation includes both generation and scoring variability. For the literature and multi-omics KG configuration, the Assistant software was updated between the first and second generation rounds. Table S7 summarizes the three rounds and the within-item dispersion for each configuration.
