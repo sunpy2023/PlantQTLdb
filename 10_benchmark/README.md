@@ -77,7 +77,7 @@ Round 1 in both score files reuses the primary evaluation, so the two files shar
 
 ### Summary measures
 
-- **Mean scoring range:** the average of the per-response maximum-minus-minimum total score across three ratings.
+- **Mean within-response scoring standard deviation:** the sample standard deviation of the three ratings of each fixed response, averaged across the 30 questions within each configuration.
 - **Mean within-question generation standard deviation:** the sample standard deviation of the three response scores for each question, averaged across the 30 questions within each system.
 
 Generation score variation includes both generation and scoring variability. For the literature and multi-omics KG configuration, the Assistant software was updated between the first and second generation rounds. Table S7 summarizes the three rounds and the within-item dispersion for each configuration.
